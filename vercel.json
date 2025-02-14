@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "track.js": {
-      "runtime": "nodejs16.x"
+      "runtime": "nodejs18@18.15.0"
     }
   },
   "routes": [
