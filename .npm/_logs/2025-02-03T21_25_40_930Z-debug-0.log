@@ -1,0 +1,1329 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/storage/emulated/0/bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install whatsapp-web.js qrcode fs path moment
+8 verbose argv "install" "whatsapp-web.js" "qrcode" "fs" "path" "moment"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-02-03T21_25_40_930Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-02-03T21_25_40_930Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+13 verbose shrinkwrap failed to load /storage/emulated/0/bot EACCES: permission denied, open '/storage/emulated/0/bot/node_modules/.package-lock.json'
+14 verbose shrinkwrap failed to load /storage/emulated/0/bot EACCES: permission denied, open '/storage/emulated/0/bot/package-lock.json'
+15 verbose shrinkwrap failed to load /storage/emulated/0/bot EACCES: permission denied, open '/storage/emulated/0/bot/package-lock.json'
+16 verbose shrinkwrap failed to load /storage/emulated/0/bot EACCES: permission denied, open '/storage/emulated/0/bot/node_modules/.package-lock.json'
+17 verbose shrinkwrap failed to load /storage/emulated/0/bot EACCES: permission denied, open '/storage/emulated/0/bot/package-lock.json'
+18 silly idealTree buildDeps
+19 silly fetch manifest whatsapp-web.js@*
+20 silly packumentCache full:https://registry.npmjs.org/whatsapp-web.js cache-miss
+21 http cache https://registry.npmjs.org/whatsapp-web.js 113ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/whatsapp-web.js set size:296093 disposed:false
+23 silly fetch manifest qrcode@*
+24 silly packumentCache full:https://registry.npmjs.org/qrcode cache-miss
+25 http cache https://registry.npmjs.org/qrcode 32ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/qrcode set size:131475 disposed:false
+27 silly fetch manifest fs@*
+28 silly packumentCache full:https://registry.npmjs.org/fs cache-miss
+29 http cache https://registry.npmjs.org/fs 26ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/fs set size:4513 disposed:false
+31 silly fetch manifest path@*
+32 silly packumentCache full:https://registry.npmjs.org/path cache-miss
+33 http cache https://registry.npmjs.org/path 17ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/path set size:7442 disposed:false
+35 silly fetch manifest moment@*
+36 silly packumentCache full:https://registry.npmjs.org/moment cache-miss
+37 http cache https://registry.npmjs.org/moment 24ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/moment set size:241560 disposed:false
+39 silly placeDep ROOT fs@0.0.1-security OK for:  want: *
+40 silly placeDep ROOT moment@2.30.1 OK for:  want: *
+41 silly placeDep ROOT path@0.12.7 OK for:  want: *
+42 silly placeDep ROOT qrcode@1.5.4 REPLACE for:  want: *
+43 silly placeDep ROOT whatsapp-web.js@1.26.0 OK for:  want: *
+44 silly fetch manifest process@^0.11.1
+45 silly packumentCache full:https://registry.npmjs.org/process cache-miss
+46 silly fetch manifest util@^0.10.3
+47 silly packumentCache full:https://registry.npmjs.org/util cache-miss
+48 silly fetch manifest dijkstrajs@^1.0.1
+49 silly packumentCache full:https://registry.npmjs.org/dijkstrajs cache-miss
+50 silly fetch manifest pngjs@^5.0.0
+51 silly packumentCache full:https://registry.npmjs.org/pngjs cache-miss
+52 silly fetch manifest yargs@^15.3.1
+53 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+54 silly fetch manifest mime@^3.0.0
+55 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+56 silly fetch manifest puppeteer@^18.2.1
+57 silly packumentCache full:https://registry.npmjs.org/puppeteer cache-miss
+58 http cache https://registry.npmjs.org/dijkstrajs 62ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/dijkstrajs set size:10832 disposed:false
+60 silly fetch manifest node-fetch@^2.6.9
+61 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+62 http cache https://registry.npmjs.org/process 74ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/process set size:31274 disposed:false
+64 silly fetch manifest node-webpmux@3.1.7
+65 silly packumentCache full:https://registry.npmjs.org/node-webpmux cache-miss
+66 http cache https://registry.npmjs.org/util 81ms (cache hit)
+67 silly packumentCache full:https://registry.npmjs.org/util set size:40411 disposed:false
+68 silly fetch manifest fluent-ffmpeg@2.1.2
+69 silly packumentCache full:https://registry.npmjs.org/fluent-ffmpeg cache-miss
+70 http cache https://registry.npmjs.org/pngjs 93ms (cache hit)
+71 silly packumentCache full:https://registry.npmjs.org/pngjs set size:70154 disposed:false
+72 silly fetch manifest @pedroslopez/moduleraid@^5.0.2
+73 silly packumentCache full:https://registry.npmjs.org/@pedroslopez%2fmoduleraid cache-miss
+74 http cache https://registry.npmjs.org/mime 102ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/mime set size:114268 disposed:false
+76 silly fetch manifest archiver@^5.3.1
+77 silly packumentCache full:https://registry.npmjs.org/archiver cache-miss
+78 http cache https://registry.npmjs.org/yargs 126ms (cache hit)
+79 silly packumentCache full:https://registry.npmjs.org/yargs set size:1061296 disposed:false
+80 silly fetch manifest fs-extra@^10.1.0
+81 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+82 http cache https://registry.npmjs.org/puppeteer 198ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/puppeteer set size:3739038 disposed:false
+84 silly fetch manifest unzipper@^0.10.11
+85 silly packumentCache full:https://registry.npmjs.org/unzipper cache-miss
+86 http cache https://registry.npmjs.org/node-webpmux 337ms (cache hit)
+87 silly packumentCache full:https://registry.npmjs.org/node-webpmux set size:76304 disposed:false
+88 http cache https://registry.npmjs.org/fluent-ffmpeg 330ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/fluent-ffmpeg set size:129616 disposed:false
+90 http cache https://registry.npmjs.org/node-fetch 368ms (cache hit)
+91 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+92 http cache https://registry.npmjs.org/@pedroslopez%2fmoduleraid 359ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/@pedroslopez%2fmoduleraid set size:14362 disposed:false
+94 http cache https://registry.npmjs.org/archiver 352ms (cache hit)
+95 silly packumentCache full:https://registry.npmjs.org/archiver set size:167796 disposed:false
+96 http cache https://registry.npmjs.org/fs-extra 308ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:223131 disposed:false
+98 http cache https://registry.npmjs.org/unzipper 162ms (cache hit)
+99 silly packumentCache full:https://registry.npmjs.org/unzipper set size:200770 disposed:false
+100 silly placeDep ROOT process@0.11.10 OK for: path@0.12.7 want: ^0.11.1
+101 silly placeDep ROOT util@0.10.4 OK for: path@0.12.7 want: ^0.10.3
+102 silly fetch manifest inherits@2.0.3
+103 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+104 http cache https://registry.npmjs.org/inherits 16ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/inherits set size:12925 disposed:false
+106 silly placeDep ROOT dijkstrajs@1.0.3 OK for: qrcode@1.5.4 want: ^1.0.1
+107 silly placeDep ROOT pngjs@5.0.0 OK for: qrcode@1.5.4 want: ^5.0.0
+108 silly placeDep ROOT yargs@15.4.1 OK for: qrcode@1.5.4 want: ^15.3.1
+109 silly fetch manifest y18n@^4.0.0
+110 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+111 silly fetch manifest cliui@^6.0.0
+112 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+113 silly fetch manifest find-up@^4.1.0
+114 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+115 silly fetch manifest decamelize@^1.2.0
+116 silly packumentCache full:https://registry.npmjs.org/decamelize cache-miss
+117 silly fetch manifest set-blocking@^2.0.0
+118 silly packumentCache full:https://registry.npmjs.org/set-blocking cache-miss
+119 silly fetch manifest string-width@^4.2.0
+120 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+121 silly fetch manifest which-module@^2.0.0
+122 silly packumentCache full:https://registry.npmjs.org/which-module cache-miss
+123 http cache https://registry.npmjs.org/decamelize 49ms (cache hit)
+124 silly packumentCache full:https://registry.npmjs.org/decamelize set size:32733 disposed:false
+125 silly fetch manifest yargs-parser@^18.1.2
+126 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+127 http cache https://registry.npmjs.org/string-width 55ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/string-width set size:61460 disposed:false
+129 silly fetch manifest get-caller-file@^2.0.1
+130 silly packumentCache full:https://registry.npmjs.org/get-caller-file cache-miss
+131 http cache https://registry.npmjs.org/y18n 74ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/y18n set size:76155 disposed:false
+133 silly fetch manifest require-directory@^2.1.1
+134 silly packumentCache full:https://registry.npmjs.org/require-directory cache-miss
+135 http cache https://registry.npmjs.org/find-up 84ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/find-up set size:38503 disposed:false
+137 silly fetch manifest require-main-filename@^2.0.0
+138 silly packumentCache full:https://registry.npmjs.org/require-main-filename cache-miss
+139 http cache https://registry.npmjs.org/set-blocking 89ms (cache hit)
+140 silly packumentCache full:https://registry.npmjs.org/set-blocking set size:5763 disposed:false
+141 http cache https://registry.npmjs.org/cliui 100ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/cliui set size:63931 disposed:false
+143 http cache https://registry.npmjs.org/which-module 100ms (cache hit)
+144 silly packumentCache full:https://registry.npmjs.org/which-module set size:13898 disposed:false
+145 http cache https://registry.npmjs.org/require-directory 45ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/require-directory set size:26866 disposed:false
+147 http cache https://registry.npmjs.org/get-caller-file 60ms (cache hit)
+148 silly packumentCache full:https://registry.npmjs.org/get-caller-file set size:26456 disposed:false
+149 http cache https://registry.npmjs.org/require-main-filename 42ms (cache hit)
+150 silly packumentCache full:https://registry.npmjs.org/require-main-filename set size:7471 disposed:false
+151 http cache https://registry.npmjs.org/yargs-parser 81ms (cache hit)
+152 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:355061 disposed:false
+153 silly placeDep node_modules/util inherits@2.0.3 OK for: util@0.10.4 want: 2.0.3
+154 silly fetch manifest encoding@^0.1.0
+155 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+156 http cache https://registry.npmjs.org/encoding 22ms (cache hit)
+157 silly packumentCache full:https://registry.npmjs.org/encoding set size:17833 disposed:false
+158 silly placeDep ROOT @pedroslopez/moduleraid@5.0.2 OK for: whatsapp-web.js@1.26.0 want: ^5.0.2
+159 silly placeDep ROOT archiver@5.3.2 OK for: whatsapp-web.js@1.26.0 want: ^5.3.1
+160 silly placeDep ROOT fluent-ffmpeg@2.1.2 OK for: whatsapp-web.js@1.26.0 want: 2.1.2
+161 silly placeDep ROOT fs-extra@10.1.0 OK for: whatsapp-web.js@1.26.0 want: ^10.1.0
+162 silly placeDep ROOT mime@3.0.0 OK for: whatsapp-web.js@1.26.0 want: ^3.0.0
+163 silly placeDep ROOT node-fetch@2.7.0 OK for: whatsapp-web.js@1.26.0 want: ^2.6.9
+164 silly placeDep ROOT node-webpmux@3.1.7 OK for: whatsapp-web.js@1.26.0 want: 3.1.7
+165 silly placeDep ROOT puppeteer@18.2.1 OK for: whatsapp-web.js@1.26.0 want: ^18.2.1
+166 silly placeDep ROOT unzipper@0.10.14 OK for: whatsapp-web.js@1.26.0 want: ^0.10.11
+167 silly fetch manifest archiver-utils@^2.1.0
+168 silly packumentCache full:https://registry.npmjs.org/archiver-utils cache-miss
+169 silly fetch manifest async@^3.2.4
+170 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+171 silly fetch manifest buffer-crc32@^0.2.1
+172 silly packumentCache full:https://registry.npmjs.org/buffer-crc32 cache-miss
+173 silly fetch manifest readable-stream@^3.6.0
+174 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+175 silly fetch manifest readdir-glob@^1.1.2
+176 silly packumentCache full:https://registry.npmjs.org/readdir-glob cache-miss
+177 silly fetch manifest tar-stream@^2.2.0
+178 silly packumentCache full:https://registry.npmjs.org/tar-stream cache-miss
+179 silly fetch manifest zip-stream@^4.1.0
+180 silly packumentCache full:https://registry.npmjs.org/zip-stream cache-miss
+181 http cache https://registry.npmjs.org/archiver-utils 42ms (cache hit)
+182 silly packumentCache full:https://registry.npmjs.org/archiver-utils set size:31398 disposed:false
+183 silly fetch manifest async@>=0.2.9
+184 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+185 http cache https://registry.npmjs.org/async 48ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/async set size:230496 disposed:false
+187 silly fetch manifest which@^1.1.1
+188 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+189 http cache https://registry.npmjs.org/buffer-crc32 62ms (cache hit)
+190 silly packumentCache full:https://registry.npmjs.org/buffer-crc32 set size:58100 disposed:false
+191 silly fetch manifest jsonfile@^6.0.1
+192 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+193 http cache https://registry.npmjs.org/readable-stream 70ms (cache hit)
+194 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+195 silly fetch manifest graceful-fs@^4.2.0
+196 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+197 http cache https://registry.npmjs.org/zip-stream 96ms (cache hit)
+198 silly packumentCache full:https://registry.npmjs.org/zip-stream set size:105423 disposed:false
+199 silly fetch manifest universalify@^2.0.0
+200 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+201 http cache https://registry.npmjs.org/readdir-glob 115ms (cache hit)
+202 silly packumentCache full:https://registry.npmjs.org/readdir-glob set size:23224 disposed:false
+203 silly fetch manifest whatwg-url@^5.0.0
+204 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+205 http cache https://registry.npmjs.org/tar-stream 118ms (cache hit)
+206 silly packumentCache full:https://registry.npmjs.org/tar-stream set size:132366 disposed:false
+207 silly fetch manifest progress@2.0.3
+208 silly packumentCache full:https://registry.npmjs.org/progress cache-miss
+209 http cache https://registry.npmjs.org/async 111ms (cache hit)
+210 silly packumentCache full:https://registry.npmjs.org/async set size:230496 disposed:false
+211 silly packumentCache full:https://registry.npmjs.org/async dispose
+212 silly fetch manifest proxy-from-env@1.1.0
+213 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+214 http cache https://registry.npmjs.org/which 114ms (cache hit)
+215 silly packumentCache full:https://registry.npmjs.org/which set size:62712 disposed:false
+216 silly fetch manifest puppeteer-core@18.2.1
+217 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+218 http cache https://registry.npmjs.org/jsonfile 117ms (cache hit)
+219 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:49739 disposed:false
+220 silly fetch manifest https-proxy-agent@5.0.1
+221 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+222 http cache https://registry.npmjs.org/graceful-fs 106ms (cache hit)
+223 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+224 silly fetch manifest binary@~0.3.0
+225 silly packumentCache full:https://registry.npmjs.org/binary cache-miss
+226 http cache https://registry.npmjs.org/universalify 95ms (cache hit)
+227 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+228 silly fetch manifest fstream@^1.0.12
+229 silly packumentCache full:https://registry.npmjs.org/fstream cache-miss
+230 http cache https://registry.npmjs.org/whatwg-url 91ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:155803 disposed:false
+232 silly fetch manifest bluebird@~3.4.1
+233 silly packumentCache full:https://registry.npmjs.org/bluebird cache-miss
+234 http cache https://registry.npmjs.org/progress 91ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/progress set size:34123 disposed:false
+236 silly fetch manifest duplexer2@~0.1.4
+237 silly packumentCache full:https://registry.npmjs.org/duplexer2 cache-miss
+238 http cache https://registry.npmjs.org/proxy-from-env 85ms (cache hit)
+239 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:15831 disposed:false
+240 silly fetch manifest big-integer@^1.6.17
+241 silly packumentCache full:https://registry.npmjs.org/big-integer cache-miss
+242 http cache https://registry.npmjs.org/puppeteer-core 90ms (cache hit)
+243 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:1206959 disposed:false
+244 silly fetch manifest graceful-fs@^4.2.2
+245 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-hit
+246 silly fetch manifest setimmediate@~1.0.4
+247 silly packumentCache full:https://registry.npmjs.org/setimmediate cache-miss
+248 http cache https://registry.npmjs.org/https-proxy-agent 119ms (cache hit)
+249 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:76222 disposed:false
+250 silly fetch manifest listenercount@~1.0.1
+251 silly packumentCache full:https://registry.npmjs.org/listenercount cache-miss
+252 http cache https://registry.npmjs.org/binary 116ms (cache hit)
+253 silly packumentCache full:https://registry.npmjs.org/binary set size:29229 disposed:false
+254 silly fetch manifest readable-stream@~2.3.6
+255 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+256 silly fetch manifest buffer-indexof-polyfill@~1.0.0
+257 silly packumentCache full:https://registry.npmjs.org/buffer-indexof-polyfill cache-miss
+258 http cache https://registry.npmjs.org/fstream 119ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/fstream set size:65648 disposed:false
+260 http cache https://registry.npmjs.org/bluebird 116ms (cache hit)
+261 silly packumentCache full:https://registry.npmjs.org/bluebird set size:491002 disposed:false
+262 http cache https://registry.npmjs.org/duplexer2 132ms (cache hit)
+263 silly packumentCache full:https://registry.npmjs.org/duplexer2 set size:15068 disposed:false
+264 http cache https://registry.npmjs.org/big-integer 126ms (cache hit)
+265 silly packumentCache full:https://registry.npmjs.org/big-integer set size:205433 disposed:false
+266 http cache https://registry.npmjs.org/listenercount 79ms (cache hit)
+267 silly packumentCache full:https://registry.npmjs.org/listenercount set size:5073 disposed:false
+268 http cache https://registry.npmjs.org/buffer-indexof-polyfill 70ms (cache hit)
+269 silly packumentCache full:https://registry.npmjs.org/buffer-indexof-polyfill set size:7477 disposed:false
+270 http cache https://registry.npmjs.org/setimmediate 94ms (cache hit)
+271 silly packumentCache full:https://registry.npmjs.org/setimmediate set size:17282 disposed:false
+272 silly placeDep ROOT archiver-utils@2.1.0 OK for: archiver@5.3.2 want: ^2.1.0
+273 silly placeDep ROOT async@3.2.6 OK for: archiver@5.3.2 want: ^3.2.4
+274 silly placeDep ROOT buffer-crc32@0.2.13 OK for: archiver@5.3.2 want: ^0.2.1
+275 silly placeDep node_modules/archiver readable-stream@3.6.2 OK for: archiver@5.3.2 want: ^3.6.0
+276 silly placeDep ROOT readdir-glob@1.1.3 OK for: archiver@5.3.2 want: ^1.1.2
+277 silly placeDep ROOT tar-stream@2.2.0 OK for: archiver@5.3.2 want: ^2.2.0
+278 silly placeDep ROOT zip-stream@4.1.1 OK for: archiver@5.3.2 want: ^4.1.0
+279 silly fetch manifest glob@^7.1.4
+280 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+281 silly fetch manifest lazystream@^1.0.0
+282 silly packumentCache full:https://registry.npmjs.org/lazystream cache-miss
+283 silly fetch manifest lodash.defaults@^4.2.0
+284 silly packumentCache full:https://registry.npmjs.org/lodash.defaults cache-miss
+285 silly fetch manifest lodash.difference@^4.5.0
+286 silly packumentCache full:https://registry.npmjs.org/lodash.difference cache-miss
+287 silly fetch manifest lodash.flatten@^4.4.0
+288 silly packumentCache full:https://registry.npmjs.org/lodash.flatten cache-miss
+289 silly fetch manifest lodash.isplainobject@^4.0.6
+290 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject cache-miss
+291 silly fetch manifest lodash.union@^4.6.0
+292 silly packumentCache full:https://registry.npmjs.org/lodash.union cache-miss
+293 http cache https://registry.npmjs.org/lazystream 34ms (cache hit)
+294 silly packumentCache full:https://registry.npmjs.org/lazystream set size:14342 disposed:false
+295 silly fetch manifest normalize-path@^3.0.0
+296 silly packumentCache full:https://registry.npmjs.org/normalize-path cache-miss
+297 http cache https://registry.npmjs.org/lodash.defaults 39ms (cache hit)
+298 silly packumentCache full:https://registry.npmjs.org/lodash.defaults set size:30178 disposed:false
+299 silly fetch manifest readable-stream@^2.0.0
+300 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+301 silly fetch manifest inherits@^2.0.3
+302 silly packumentCache full:https://registry.npmjs.org/inherits cache-hit
+303 silly fetch manifest string_decoder@^1.1.1
+304 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+305 http cache https://registry.npmjs.org/lodash.difference 49ms (cache hit)
+306 silly packumentCache full:https://registry.npmjs.org/lodash.difference set size:47748 disposed:false
+307 silly fetch manifest util-deprecate@^1.0.1
+308 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+309 http cache https://registry.npmjs.org/glob 64ms (cache hit)
+310 silly packumentCache full:https://registry.npmjs.org/glob set size:402595 disposed:false
+311 silly fetch manifest minimatch@^5.1.0
+312 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+313 http cache https://registry.npmjs.org/lodash.isplainobject 82ms (cache hit)
+314 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject set size:38531 disposed:false
+315 silly fetch manifest bl@^4.0.3
+316 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+317 http cache https://registry.npmjs.org/lodash.flatten 89ms (cache hit)
+318 silly packumentCache full:https://registry.npmjs.org/lodash.flatten set size:31741 disposed:false
+319 silly fetch manifest end-of-stream@^1.4.1
+320 silly packumentCache full:https://registry.npmjs.org/end-of-stream cache-miss
+321 http cache https://registry.npmjs.org/lodash.union 90ms (cache hit)
+322 silly packumentCache full:https://registry.npmjs.org/lodash.union set size:39916 disposed:false
+323 silly fetch manifest fs-constants@^1.0.0
+324 silly packumentCache full:https://registry.npmjs.org/fs-constants cache-miss
+325 http cache https://registry.npmjs.org/normalize-path 91ms (cache hit)
+326 silly packumentCache full:https://registry.npmjs.org/normalize-path set size:28713 disposed:false
+327 silly fetch manifest readable-stream@^3.1.1
+328 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+329 silly fetch manifest archiver-utils@^3.0.4
+330 silly packumentCache full:https://registry.npmjs.org/archiver-utils cache-hit
+331 silly fetch manifest compress-commons@^4.1.2
+332 silly packumentCache full:https://registry.npmjs.org/compress-commons cache-miss
+333 http cache https://registry.npmjs.org/bl 52ms (cache hit)
+334 silly packumentCache full:https://registry.npmjs.org/bl set size:165276 disposed:false
+335 http cache https://registry.npmjs.org/util-deprecate 99ms (cache hit)
+336 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+337 http cache https://registry.npmjs.org/string_decoder 109ms (cache hit)
+338 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+339 http cache https://registry.npmjs.org/minimatch 86ms (cache hit)
+340 silly packumentCache full:https://registry.npmjs.org/minimatch set size:398328 disposed:false
+341 http cache https://registry.npmjs.org/end-of-stream 81ms (cache hit)
+342 silly packumentCache full:https://registry.npmjs.org/end-of-stream set size:26267 disposed:false
+343 http cache https://registry.npmjs.org/fs-constants 80ms (cache hit)
+344 silly packumentCache full:https://registry.npmjs.org/fs-constants set size:3522 disposed:false
+345 http cache https://registry.npmjs.org/compress-commons 59ms (cache hit)
+346 silly packumentCache full:https://registry.npmjs.org/compress-commons set size:89263 disposed:false
+347 silly placeDep node_modules/archiver-utils glob@7.2.3 OK for: archiver-utils@2.1.0 want: ^7.1.4
+348 silly placeDep ROOT graceful-fs@4.2.11 OK for: archiver-utils@2.1.0 want: ^4.2.0
+349 silly placeDep ROOT lazystream@1.0.1 OK for: archiver-utils@2.1.0 want: ^1.0.0
+350 silly placeDep ROOT lodash.defaults@4.2.0 OK for: archiver-utils@2.1.0 want: ^4.2.0
+351 silly placeDep ROOT lodash.difference@4.5.0 OK for: archiver-utils@2.1.0 want: ^4.5.0
+352 silly placeDep ROOT lodash.flatten@4.4.0 OK for: archiver-utils@2.1.0 want: ^4.4.0
+353 silly placeDep ROOT lodash.isplainobject@4.0.6 OK for: archiver-utils@2.1.0 want: ^4.0.6
+354 silly placeDep ROOT lodash.union@4.6.0 OK for: archiver-utils@2.1.0 want: ^4.6.0
+355 silly placeDep ROOT normalize-path@3.0.0 OK for: archiver-utils@2.1.0 want: ^3.0.0
+356 silly placeDep node_modules/archiver-utils readable-stream@2.3.8 OK for: archiver-utils@2.1.0 want: ^2.0.0
+357 silly fetch manifest once@^1.3.0
+358 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+359 silly fetch manifest inflight@^1.0.4
+360 silly packumentCache full:https://registry.npmjs.org/inflight cache-miss
+361 silly fetch manifest inherits@2
+362 silly packumentCache full:https://registry.npmjs.org/inherits cache-hit
+363 silly fetch manifest minimatch@^3.1.1
+364 silly packumentCache full:https://registry.npmjs.org/minimatch cache-hit
+365 silly fetch manifest fs.realpath@^1.0.0
+366 silly packumentCache full:https://registry.npmjs.org/fs.realpath cache-miss
+367 silly fetch manifest path-is-absolute@^1.0.0
+368 silly packumentCache full:https://registry.npmjs.org/path-is-absolute cache-miss
+369 silly fetch manifest readable-stream@^2.0.5
+370 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+371 silly fetch manifest isarray@~1.0.0
+372 silly packumentCache full:https://registry.npmjs.org/isarray cache-miss
+373 silly fetch manifest inherits@~2.0.3
+374 silly packumentCache full:https://registry.npmjs.org/inherits cache-hit
+375 silly fetch manifest safe-buffer@~5.1.1
+376 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+377 silly fetch manifest core-util-is@~1.0.0
+378 silly packumentCache full:https://registry.npmjs.org/core-util-is cache-miss
+379 http cache https://registry.npmjs.org/once 71ms (cache hit)
+380 silly packumentCache full:https://registry.npmjs.org/once set size:11768 disposed:false
+381 silly fetch manifest string_decoder@~1.1.1
+382 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-hit
+383 silly fetch manifest util-deprecate@~1.0.1
+384 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-hit
+385 silly fetch manifest process-nextick-args@~2.0.0
+386 silly packumentCache full:https://registry.npmjs.org/process-nextick-args cache-miss
+387 http cache https://registry.npmjs.org/fs.realpath 76ms (cache hit)
+388 silly packumentCache full:https://registry.npmjs.org/fs.realpath set size:4806 disposed:false
+389 http cache https://registry.npmjs.org/inflight 84ms (cache hit)
+390 silly packumentCache full:https://registry.npmjs.org/inflight set size:13140 disposed:false
+391 http cache https://registry.npmjs.org/isarray 57ms (cache hit)
+392 silly packumentCache full:https://registry.npmjs.org/isarray set size:17392 disposed:false
+393 http cache https://registry.npmjs.org/path-is-absolute 85ms (cache hit)
+394 silly packumentCache full:https://registry.npmjs.org/path-is-absolute set size:8253 disposed:false
+395 http cache https://registry.npmjs.org/core-util-is 58ms (cache hit)
+396 silly packumentCache full:https://registry.npmjs.org/core-util-is set size:7163 disposed:false
+397 http cache https://registry.npmjs.org/safe-buffer 66ms (cache hit)
+398 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+399 http cache https://registry.npmjs.org/process-nextick-args 37ms (cache hit)
+400 silly packumentCache full:https://registry.npmjs.org/process-nextick-args set size:15428 disposed:false
+401 silly placeDep node_modules/fluent-ffmpeg which@1.3.1 OK for: fluent-ffmpeg@2.1.2 want: ^1.1.1
+402 silly fetch manifest isexe@^2.0.0
+403 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+404 http cache https://registry.npmjs.org/isexe 19ms (cache hit)
+405 silly packumentCache full:https://registry.npmjs.org/isexe set size:19340 disposed:false
+406 silly placeDep ROOT jsonfile@6.1.0 OK for: fs-extra@10.1.0 want: ^6.0.1
+407 silly placeDep ROOT universalify@2.0.1 OK for: fs-extra@10.1.0 want: ^2.0.0
+408 silly placeDep node_modules/lazystream readable-stream@2.3.8 OK for: lazystream@1.0.1 want: ^2.0.5
+409 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+410 silly fetch manifest tr46@~0.0.3
+411 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+412 silly fetch manifest webidl-conversions@^3.0.0
+413 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+414 http cache https://registry.npmjs.org/webidl-conversions 16ms (cache hit)
+415 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:41857 disposed:false
+416 http cache https://registry.npmjs.org/tr46 30ms (cache hit)
+417 silly packumentCache full:https://registry.npmjs.org/tr46 set size:41044 disposed:false
+418 silly placeDep ROOT https-proxy-agent@5.0.1 OK for: puppeteer@18.2.1 want: 5.0.1
+419 silly placeDep ROOT progress@2.0.3 OK for: puppeteer@18.2.1 want: 2.0.3
+420 silly placeDep node_modules/puppeteer proxy-from-env@1.1.0 OK for: puppeteer@18.2.1 want: 1.1.0
+421 silly placeDep ROOT puppeteer-core@18.2.1 OK for: puppeteer@18.2.1 want: 18.2.1
+422 silly fetch manifest debug@4
+423 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+424 silly fetch manifest agent-base@6
+425 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+426 silly fetch manifest ws@8.9.0
+427 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+428 silly fetch manifest debug@4.3.4
+429 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+430 silly fetch manifest rimraf@3.0.2
+431 silly packumentCache full:https://registry.npmjs.org/rimraf cache-miss
+432 silly fetch manifest tar-fs@2.1.1
+433 silly packumentCache full:https://registry.npmjs.org/tar-fs cache-miss
+434 silly fetch manifest cross-fetch@3.1.5
+435 silly packumentCache full:https://registry.npmjs.org/cross-fetch cache-miss
+436 http cache https://registry.npmjs.org/debug 57ms (cache hit)
+437 silly packumentCache full:https://registry.npmjs.org/debug set size:191331 disposed:false
+438 silly fetch manifest extract-zip@2.0.1
+439 silly packumentCache full:https://registry.npmjs.org/extract-zip cache-miss
+440 http cache https://registry.npmjs.org/agent-base 74ms (cache hit)
+441 silly packumentCache full:https://registry.npmjs.org/agent-base set size:65276 disposed:false
+442 silly fetch manifest unbzip2-stream@1.4.3
+443 silly packumentCache full:https://registry.npmjs.org/unbzip2-stream cache-miss
+444 http cache https://registry.npmjs.org/tar-fs 75ms (cache hit)
+445 silly packumentCache full:https://registry.npmjs.org/tar-fs set size:107144 disposed:false
+446 silly fetch manifest devtools-protocol@0.0.1045489
+447 silly packumentCache full:https://registry.npmjs.org/devtools-protocol cache-miss
+448 http cache https://registry.npmjs.org/rimraf 86ms (cache hit)
+449 silly packumentCache full:https://registry.npmjs.org/rimraf set size:191579 disposed:false
+450 http cache https://registry.npmjs.org/cross-fetch 93ms (cache hit)
+451 silly packumentCache full:https://registry.npmjs.org/cross-fetch set size:156922 disposed:false
+452 http cache https://registry.npmjs.org/ws 112ms (cache hit)
+453 silly packumentCache full:https://registry.npmjs.org/ws set size:403597 disposed:false
+454 http cache https://registry.npmjs.org/debug 129ms (cache hit)
+455 silly packumentCache full:https://registry.npmjs.org/debug set size:191331 disposed:false
+456 silly packumentCache full:https://registry.npmjs.org/debug dispose
+457 http cache https://registry.npmjs.org/extract-zip 91ms (cache hit)
+458 silly packumentCache full:https://registry.npmjs.org/extract-zip set size:47715 disposed:false
+459 http cache https://registry.npmjs.org/unbzip2-stream 90ms (cache hit)
+460 silly packumentCache full:https://registry.npmjs.org/unbzip2-stream set size:59105 disposed:false
+461 http cache https://registry.npmjs.org/devtools-protocol 106ms (cache hit)
+462 silly packumentCache full:https://registry.npmjs.org/devtools-protocol set size:2705323 disposed:false
+463 silly placeDep ROOT agent-base@6.0.2 OK for: https-proxy-agent@5.0.1 want: 6
+464 silly placeDep node_modules/https-proxy-agent debug@4.4.0 OK for: https-proxy-agent@5.0.1 want: 4
+465 silly fetch manifest ms@^2.1.3
+466 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+467 http cache https://registry.npmjs.org/ms 21ms (cache hit)
+468 silly packumentCache full:https://registry.npmjs.org/ms set size:84883 disposed:false
+469 silly placeDep node_modules/agent-base debug@4.4.0 OK for: agent-base@6.0.2 want: 4
+470 silly fetch manifest bufferutil@^4.0.1
+471 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+472 http cache https://registry.npmjs.org/bufferutil 16ms (cache hit)
+473 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+474 silly fetch manifest utf-8-validate@^5.0.2
+475 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+476 http cache https://registry.npmjs.org/utf-8-validate 16ms (cache hit)
+477 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+478 silly placeDep ROOT cross-fetch@3.1.5 OK for: puppeteer-core@18.2.1 want: 3.1.5
+479 silly placeDep node_modules/puppeteer-core debug@4.3.4 OK for: puppeteer-core@18.2.1 want: 4.3.4
+480 silly placeDep ROOT devtools-protocol@0.0.1045489 OK for: puppeteer-core@18.2.1 want: 0.0.1045489
+481 silly placeDep ROOT extract-zip@2.0.1 OK for: puppeteer-core@18.2.1 want: 2.0.1
+482 silly placeDep node_modules/puppeteer-core proxy-from-env@1.1.0 OK for: puppeteer-core@18.2.1 want: 1.1.0
+483 silly placeDep node_modules/puppeteer-core rimraf@3.0.2 OK for: puppeteer-core@18.2.1 want: 3.0.2
+484 silly placeDep ROOT tar-fs@2.1.1 OK for: puppeteer-core@18.2.1 want: 2.1.1
+485 silly placeDep ROOT unbzip2-stream@1.4.3 OK for: puppeteer-core@18.2.1 want: 1.4.3
+486 silly placeDep node_modules/puppeteer-core ws@8.9.0 OK for: puppeteer-core@18.2.1 want: 8.9.0
+487 silly fetch manifest node-fetch@2.6.7
+488 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-hit
+489 silly fetch manifest ms@2.1.2
+490 silly packumentCache full:https://registry.npmjs.org/ms cache-hit
+491 silly fetch manifest debug@^4.1.1
+492 silly packumentCache full:https://registry.npmjs.org/debug cache-hit
+493 silly fetch manifest get-stream@^5.1.0
+494 silly packumentCache full:https://registry.npmjs.org/get-stream cache-miss
+495 silly fetch manifest yauzl@^2.10.0
+496 silly packumentCache full:https://registry.npmjs.org/yauzl cache-miss
+497 silly fetch manifest @types/yauzl@^2.9.1
+498 silly packumentCache full:https://registry.npmjs.org/@types%2fyauzl cache-miss
+499 silly fetch manifest glob@^7.1.3
+500 silly packumentCache full:https://registry.npmjs.org/glob cache-hit
+501 silly fetch manifest pump@^3.0.0
+502 silly packumentCache full:https://registry.npmjs.org/pump cache-miss
+503 silly fetch manifest chownr@^1.1.1
+504 silly packumentCache full:https://registry.npmjs.org/chownr cache-miss
+505 silly fetch manifest mkdirp-classic@^0.5.2
+506 silly packumentCache full:https://registry.npmjs.org/mkdirp-classic cache-miss
+507 silly fetch manifest buffer@^5.2.1
+508 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+509 http cache https://registry.npmjs.org/get-stream 47ms (cache hit)
+510 silly packumentCache full:https://registry.npmjs.org/get-stream set size:57536 disposed:false
+511 silly fetch manifest through@^2.3.8
+512 silly packumentCache full:https://registry.npmjs.org/through cache-miss
+513 http cache https://registry.npmjs.org/@types%2fyauzl 51ms (cache hit)
+514 silly packumentCache full:https://registry.npmjs.org/@types%2fyauzl set size:14094 disposed:false
+515 http cache https://registry.npmjs.org/pump 45ms (cache hit)
+516 silly packumentCache full:https://registry.npmjs.org/pump set size:38118 disposed:false
+517 http cache https://registry.npmjs.org/chownr 48ms (cache hit)
+518 silly packumentCache full:https://registry.npmjs.org/chownr set size:22157 disposed:false
+519 http cache https://registry.npmjs.org/yauzl 65ms (cache hit)
+520 silly packumentCache full:https://registry.npmjs.org/yauzl set size:97051 disposed:false
+521 http cache https://registry.npmjs.org/buffer 56ms (cache hit)
+522 silly packumentCache full:https://registry.npmjs.org/buffer set size:280480 disposed:false
+523 http cache https://registry.npmjs.org/mkdirp-classic 79ms (cache hit)
+524 silly packumentCache full:https://registry.npmjs.org/mkdirp-classic set size:5503 disposed:false
+525 http cache https://registry.npmjs.org/through 59ms (cache hit)
+526 silly packumentCache full:https://registry.npmjs.org/through set size:38387 disposed:false
+527 silly placeDep node_modules/cross-fetch node-fetch@2.6.7 OK for: cross-fetch@3.1.5 want: 2.6.7
+528 silly placeDep ROOT @types/yauzl@2.10.3 OK for: extract-zip@2.0.1 want: ^2.9.1
+529 silly placeDep node_modules/extract-zip debug@4.4.0 OK for: extract-zip@2.0.1 want: ^4.1.1
+530 silly placeDep ROOT get-stream@5.2.0 OK for: extract-zip@2.0.1 want: ^5.1.0
+531 silly placeDep ROOT yauzl@2.10.0 OK for: extract-zip@2.0.1 want: ^2.10.0
+532 silly fetch manifest fd-slicer@~1.1.0
+533 silly packumentCache full:https://registry.npmjs.org/fd-slicer cache-miss
+534 http cache https://registry.npmjs.org/fd-slicer 14ms (cache hit)
+535 silly packumentCache full:https://registry.npmjs.org/fd-slicer set size:25525 disposed:false
+536 silly placeDep ROOT pump@3.0.2 OK for: get-stream@5.2.0 want: ^3.0.0
+537 silly fetch manifest once@^1.3.1
+538 silly packumentCache full:https://registry.npmjs.org/once cache-hit
+539 silly fetch manifest end-of-stream@^1.1.0
+540 silly packumentCache full:https://registry.npmjs.org/end-of-stream cache-hit
+541 silly placeDep node_modules/pump end-of-stream@1.4.4 OK for: pump@3.0.2 want: ^1.1.0
+542 silly placeDep node_modules/pump once@1.4.0 OK for: pump@3.0.2 want: ^1.3.1
+543 silly fetch manifest once@^1.4.0
+544 silly packumentCache full:https://registry.npmjs.org/once cache-hit
+545 silly fetch manifest wrappy@1
+546 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+547 http cache https://registry.npmjs.org/wrappy 17ms (cache hit)
+548 silly packumentCache full:https://registry.npmjs.org/wrappy set size:7682 disposed:false
+549 silly placeDep node_modules/readdir-glob minimatch@5.1.6 OK for: readdir-glob@1.1.3 want: ^5.1.0
+550 silly fetch manifest brace-expansion@^2.0.1
+551 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+552 http cache https://registry.npmjs.org/brace-expansion 17ms (cache hit)
+553 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:42345 disposed:false
+554 silly placeDep ROOT chownr@1.1.4 OK for: tar-fs@2.1.1 want: ^1.1.1
+555 silly placeDep ROOT mkdirp-classic@0.5.3 OK for: tar-fs@2.1.1 want: ^0.5.2
+556 silly placeDep ROOT bl@4.1.0 OK for: tar-stream@2.2.0 want: ^4.0.3
+557 silly placeDep node_modules/tar-stream end-of-stream@1.4.4 OK for: tar-stream@2.2.0 want: ^1.4.1
+558 silly placeDep ROOT fs-constants@1.0.0 OK for: tar-stream@2.2.0 want: ^1.0.0
+559 silly placeDep node_modules/tar-stream inherits@2.0.4 OK for: tar-stream@2.2.0 want: ^2.0.3
+560 silly placeDep node_modules/tar-stream readable-stream@3.6.2 OK for: tar-stream@2.2.0 want: ^3.1.1
+561 silly fetch manifest buffer@^5.5.0
+562 silly packumentCache full:https://registry.npmjs.org/buffer cache-hit
+563 silly fetch manifest inherits@^2.0.4
+564 silly packumentCache full:https://registry.npmjs.org/inherits cache-hit
+565 silly fetch manifest readable-stream@^3.4.0
+566 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+567 silly placeDep ROOT buffer@5.7.1 OK for: bl@4.1.0 want: ^5.5.0
+568 silly placeDep node_modules/bl inherits@2.0.4 OK for: bl@4.1.0 want: ^2.0.4
+569 silly placeDep node_modules/bl readable-stream@3.6.2 OK for: bl@4.1.0 want: ^3.4.0
+570 silly fetch manifest base64-js@^1.3.1
+571 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+572 silly fetch manifest ieee754@^1.1.13
+573 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+574 http cache https://registry.npmjs.org/ieee754 23ms (cache hit)
+575 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:34910 disposed:false
+576 http cache https://registry.npmjs.org/base64-js 31ms (cache hit)
+577 silly packumentCache full:https://registry.npmjs.org/base64-js set size:41270 disposed:false
+578 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+579 silly placeDep node_modules/buffer ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+580 silly placeDep ROOT through@2.3.8 OK for: unbzip2-stream@1.4.3 want: ^2.3.8
+581 silly placeDep ROOT big-integer@1.6.52 OK for: unzipper@0.10.14 want: ^1.6.17
+582 silly placeDep ROOT binary@0.3.0 OK for: unzipper@0.10.14 want: ~0.3.0
+583 silly placeDep ROOT bluebird@3.4.7 OK for: unzipper@0.10.14 want: ~3.4.1
+584 silly placeDep ROOT buffer-indexof-polyfill@1.0.2 OK for: unzipper@0.10.14 want: ~1.0.0
+585 silly placeDep ROOT duplexer2@0.1.4 OK for: unzipper@0.10.14 want: ~0.1.4
+586 silly placeDep ROOT fstream@1.0.12 OK for: unzipper@0.10.14 want: ^1.0.12
+587 silly placeDep ROOT listenercount@1.0.1 OK for: unzipper@0.10.14 want: ~1.0.1
+588 silly placeDep node_modules/unzipper readable-stream@2.3.8 OK for: unzipper@0.10.14 want: ~2.3.6
+589 silly placeDep ROOT setimmediate@1.0.5 OK for: unzipper@0.10.14 want: ~1.0.4
+590 silly fetch manifest chainsaw@~0.1.0
+591 silly packumentCache full:https://registry.npmjs.org/chainsaw cache-miss
+592 silly fetch manifest buffers@~0.1.1
+593 silly packumentCache full:https://registry.npmjs.org/buffers cache-miss
+594 silly fetch manifest readable-stream@^2.0.2
+595 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-hit
+596 silly fetch manifest mkdirp@>=0.5 0
+597 silly packumentCache full:https://registry.npmjs.org/mkdirp cache-miss
+598 silly fetch manifest rimraf@2
+599 silly packumentCache full:https://registry.npmjs.org/rimraf cache-hit
+600 silly fetch manifest inherits@~2.0.0
+601 silly packumentCache full:https://registry.npmjs.org/inherits cache-hit
+602 http cache https://registry.npmjs.org/chainsaw 36ms (cache hit)
+603 silly packumentCache full:https://registry.npmjs.org/chainsaw set size:10192 disposed:false
+604 http cache https://registry.npmjs.org/buffers 36ms (cache hit)
+605 silly packumentCache full:https://registry.npmjs.org/buffers set size:6817 disposed:false
+606 http cache https://registry.npmjs.org/mkdirp 38ms (cache hit)
+607 silly packumentCache full:https://registry.npmjs.org/mkdirp set size:116455 disposed:false
+608 silly placeDep ROOT buffers@0.1.1 OK for: binary@0.3.0 want: ~0.1.1
+609 silly placeDep ROOT chainsaw@0.1.0 OK for: binary@0.3.0 want: ~0.1.0
+610 silly fetch manifest traverse@>=0.3.0 <0.4
+611 silly packumentCache full:https://registry.npmjs.org/traverse cache-miss
+612 http cache https://registry.npmjs.org/traverse 18ms (cache hit)
+613 silly packumentCache full:https://registry.npmjs.org/traverse set size:58393 disposed:false
+614 silly placeDep ROOT traverse@0.3.9 OK for: chainsaw@0.1.0 want: >=0.3.0 <0.4
+615 silly placeDep node_modules/duplexer2 readable-stream@2.3.8 OK for: duplexer2@0.1.4 want: ^2.0.2
+616 silly placeDep node_modules/fstream inherits@2.0.4 OK for: fstream@1.0.12 want: ~2.0.0
+617 silly placeDep ROOT mkdirp@0.5.6 OK for: fstream@1.0.12 want: >=0.5 0
+618 silly placeDep node_modules/fstream rimraf@2.7.1 OK for: fstream@1.0.12 want: 2
+619 silly fetch manifest minimist@^1.2.6
+620 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+621 http cache https://registry.npmjs.org/minimist 14ms (cache hit)
+622 silly packumentCache full:https://registry.npmjs.org/minimist set size:77097 disposed:false
+623 silly placeDep ROOT minimist@1.2.8 OK for: mkdirp@0.5.6 want: ^1.2.6
+624 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+625 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+626 silly placeDep node_modules/yargs cliui@6.0.0 OK for: yargs@15.4.1 want: ^6.0.0
+627 silly placeDep node_modules/yargs decamelize@1.2.0 OK for: yargs@15.4.1 want: ^1.2.0
+628 silly placeDep node_modules/yargs find-up@4.1.0 OK for: yargs@15.4.1 want: ^4.1.0
+629 silly placeDep node_modules/yargs get-caller-file@2.0.5 OK for: yargs@15.4.1 want: ^2.0.1
+630 silly placeDep node_modules/yargs require-directory@2.1.1 OK for: yargs@15.4.1 want: ^2.1.1
+631 silly placeDep node_modules/yargs require-main-filename@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+632 silly placeDep node_modules/yargs set-blocking@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+633 silly placeDep node_modules/yargs string-width@4.2.3 OK for: yargs@15.4.1 want: ^4.2.0
+634 silly placeDep node_modules/yargs which-module@2.0.1 OK for: yargs@15.4.1 want: ^2.0.0
+635 silly placeDep node_modules/yargs y18n@4.0.3 OK for: yargs@15.4.1 want: ^4.0.0
+636 silly placeDep node_modules/yargs yargs-parser@18.1.3 OK for: yargs@15.4.1 want: ^18.1.2
+637 silly fetch manifest wrap-ansi@^6.2.0
+638 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+639 silly fetch manifest strip-ansi@^6.0.0
+640 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+641 silly fetch manifest locate-path@^5.0.0
+642 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+643 silly fetch manifest path-exists@^4.0.0
+644 silly packumentCache full:https://registry.npmjs.org/path-exists cache-miss
+645 silly fetch manifest strip-ansi@^6.0.1
+646 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+647 silly fetch manifest emoji-regex@^8.0.0
+648 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+649 silly fetch manifest is-fullwidth-code-point@^3.0.0
+650 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+651 http cache https://registry.npmjs.org/strip-ansi 32ms (cache hit)
+652 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+653 silly fetch manifest camelcase@^5.0.0
+654 silly packumentCache full:https://registry.npmjs.org/camelcase cache-miss
+655 http cache https://registry.npmjs.org/path-exists 34ms (cache hit)
+656 silly packumentCache full:https://registry.npmjs.org/path-exists set size:13704 disposed:false
+657 http cache https://registry.npmjs.org/strip-ansi 36ms (cache hit)
+658 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+659 silly packumentCache full:https://registry.npmjs.org/strip-ansi dispose
+660 http cache https://registry.npmjs.org/wrap-ansi 44ms (cache hit)
+661 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:51143 disposed:false
+662 http cache https://registry.npmjs.org/locate-path 45ms (cache hit)
+663 silly packumentCache full:https://registry.npmjs.org/locate-path set size:29792 disposed:false
+664 http cache https://registry.npmjs.org/emoji-regex 45ms (cache hit)
+665 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:85187 disposed:false
+666 http cache https://registry.npmjs.org/is-fullwidth-code-point 47ms (cache hit)
+667 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+668 http cache https://registry.npmjs.org/camelcase 30ms (cache hit)
+669 silly packumentCache full:https://registry.npmjs.org/camelcase set size:57059 disposed:false
+670 silly placeDep ROOT fd-slicer@1.1.0 OK for: yauzl@2.10.0 want: ~1.1.0
+671 silly fetch manifest pend@~1.2.0
+672 silly packumentCache full:https://registry.npmjs.org/pend cache-miss
+673 http cache https://registry.npmjs.org/pend 16ms (cache hit)
+674 silly packumentCache full:https://registry.npmjs.org/pend set size:8066 disposed:false
+675 silly placeDep ROOT pend@1.2.0 OK for: fd-slicer@1.1.0 want: ~1.2.0
+676 silly placeDep node_modules/zip-stream archiver-utils@3.0.4 OK for: zip-stream@4.1.1 want: ^3.0.4
+677 silly placeDep ROOT compress-commons@4.1.2 OK for: zip-stream@4.1.1 want: ^4.1.2
+678 silly placeDep node_modules/zip-stream readable-stream@3.6.2 OK for: zip-stream@4.1.1 want: ^3.6.0
+679 silly fetch manifest glob@^7.2.3
+680 silly packumentCache full:https://registry.npmjs.org/glob cache-hit
+681 silly fetch manifest crc32-stream@^4.0.2
+682 silly packumentCache full:https://registry.npmjs.org/crc32-stream cache-miss
+683 http cache https://registry.npmjs.org/crc32-stream 13ms (cache hit)
+684 silly packumentCache full:https://registry.npmjs.org/crc32-stream set size:49384 disposed:false
+685 silly placeDep ROOT crc32-stream@4.0.3 OK for: compress-commons@4.1.2 want: ^4.0.2
+686 silly placeDep node_modules/compress-commons readable-stream@3.6.2 OK for: compress-commons@4.1.2 want: ^3.6.0
+687 silly fetch manifest crc-32@^1.2.0
+688 silly packumentCache full:https://registry.npmjs.org/crc-32 cache-miss
+689 http cache https://registry.npmjs.org/crc-32 11ms (cache hit)
+690 silly packumentCache full:https://registry.npmjs.org/crc-32 set size:32170 disposed:false
+691 silly placeDep ROOT crc-32@1.2.2 OK for: crc32-stream@4.0.3 want: ^1.2.0
+692 silly placeDep node_modules/crc32-stream readable-stream@3.6.2 OK for: crc32-stream@4.0.3 want: ^3.4.0
+693 silly placeDep node_modules/agent-base ms@2.1.3 OK for: debug@4.4.0 want: ^2.1.3
+694 silly placeDep node_modules/archiver-utils fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+695 silly placeDep node_modules/archiver-utils inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+696 silly placeDep node_modules/archiver-utils inherits@2.0.4 OK for: glob@7.2.3 want: 2
+697 silly placeDep node_modules/archiver-utils minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+698 silly placeDep node_modules/archiver-utils once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+699 silly placeDep node_modules/archiver-utils path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+700 silly fetch manifest brace-expansion@^1.1.7
+701 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-hit
+702 silly placeDep node_modules/archiver-utils wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+703 silly placeDep node_modules/archiver-utils brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+704 silly fetch manifest balanced-match@^1.0.0
+705 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+706 silly fetch manifest concat-map@0.0.1
+707 silly packumentCache full:https://registry.npmjs.org/concat-map cache-miss
+708 http cache https://registry.npmjs.org/balanced-match 14ms (cache hit)
+709 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:33860 disposed:false
+710 http cache https://registry.npmjs.org/concat-map 17ms (cache hit)
+711 silly packumentCache full:https://registry.npmjs.org/concat-map set size:9290 disposed:false
+712 silly placeDep node_modules/archiver-utils balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+713 silly placeDep node_modules/archiver-utils concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+714 silly placeDep ROOT core-util-is@1.0.3 OK for: readable-stream@2.3.8 want: ~1.0.0
+715 silly placeDep ROOT isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+716 silly placeDep ROOT process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+717 silly placeDep node_modules/archiver-utils safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+718 silly placeDep node_modules/archiver-utils string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+719 silly placeDep node_modules/archiver-utils util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+720 silly placeDep node_modules/archiver inherits@2.0.4 OK for: readable-stream@3.6.2 want: ^2.0.3
+721 silly placeDep node_modules/archiver string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+722 silly placeDep node_modules/archiver util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+723 silly fetch manifest safe-buffer@~5.2.0
+724 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-hit
+725 silly placeDep node_modules/archiver safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+726 silly placeDep node_modules/bl string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+727 silly placeDep node_modules/bl util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+728 silly placeDep node_modules/bl safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+729 silly placeDep node_modules/compress-commons inherits@2.0.4 OK for: readable-stream@3.6.2 want: ^2.0.3
+730 silly placeDep node_modules/compress-commons string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+731 silly placeDep node_modules/compress-commons util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+732 silly placeDep node_modules/compress-commons safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+733 silly placeDep node_modules/crc32-stream inherits@2.0.4 OK for: readable-stream@3.6.2 want: ^2.0.3
+734 silly placeDep node_modules/crc32-stream string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+735 silly placeDep node_modules/crc32-stream util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+736 silly placeDep node_modules/crc32-stream safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+737 silly placeDep node_modules/duplexer2 inherits@2.0.4 OK for: readable-stream@2.3.8 want: ~2.0.3
+738 silly placeDep node_modules/duplexer2 safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+739 silly placeDep node_modules/duplexer2 string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+740 silly placeDep node_modules/duplexer2 util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+741 silly placeDep node_modules/extract-zip ms@2.1.3 OK for: debug@4.4.0 want: ^2.1.3
+742 silly placeDep node_modules/fluent-ffmpeg isexe@2.0.0 OK for: which@1.3.1 want: ^2.0.0
+743 silly placeDep node_modules/fstream glob@7.2.3 OK for: rimraf@2.7.1 want: ^7.1.3
+744 silly placeDep node_modules/fstream fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+745 silly placeDep node_modules/fstream inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+746 silly placeDep node_modules/fstream minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+747 silly placeDep node_modules/fstream once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+748 silly placeDep node_modules/fstream path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+749 silly placeDep node_modules/fstream wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+750 silly placeDep node_modules/fstream brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+751 silly placeDep node_modules/fstream balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+752 silly placeDep node_modules/fstream concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+753 silly placeDep node_modules/https-proxy-agent ms@2.1.3 OK for: debug@4.4.0 want: ^2.1.3
+754 silly placeDep node_modules/lazystream inherits@2.0.4 OK for: readable-stream@2.3.8 want: ~2.0.3
+755 silly placeDep node_modules/lazystream safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+756 silly placeDep node_modules/lazystream string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+757 silly placeDep node_modules/lazystream util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+758 silly placeDep node_modules/pump wrappy@1.0.2 OK for: once@1.4.0 want: 1
+759 silly placeDep node_modules/puppeteer-core ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+760 silly placeDep node_modules/puppeteer-core glob@7.2.3 OK for: rimraf@3.0.2 want: ^7.1.3
+761 silly placeDep node_modules/puppeteer-core fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+762 silly placeDep node_modules/puppeteer-core inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+763 silly placeDep node_modules/puppeteer-core inherits@2.0.4 OK for: glob@7.2.3 want: 2
+764 silly placeDep node_modules/puppeteer-core minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+765 silly placeDep node_modules/puppeteer-core once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+766 silly placeDep node_modules/puppeteer-core path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+767 silly placeDep node_modules/puppeteer-core wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+768 silly placeDep node_modules/puppeteer-core brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+769 silly placeDep node_modules/puppeteer-core balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+770 silly placeDep node_modules/puppeteer-core concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+771 silly placeDep node_modules/readdir-glob brace-expansion@2.0.1 OK for: minimatch@5.1.6 want: ^2.0.1
+772 silly placeDep node_modules/readdir-glob balanced-match@1.0.2 OK for: brace-expansion@2.0.1 want: ^1.0.0
+773 silly placeDep node_modules/tar-stream once@1.4.0 OK for: end-of-stream@1.4.4 want: ^1.4.0
+774 silly placeDep node_modules/tar-stream wrappy@1.0.2 OK for: once@1.4.0 want: 1
+775 silly placeDep node_modules/tar-stream string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+776 silly placeDep node_modules/tar-stream util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+777 silly placeDep node_modules/tar-stream safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+778 silly placeDep node_modules/unzipper inherits@2.0.4 OK for: readable-stream@2.3.8 want: ~2.0.3
+779 silly placeDep node_modules/unzipper safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+780 silly placeDep node_modules/unzipper string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+781 silly placeDep node_modules/unzipper util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+782 silly placeDep node_modules/yargs strip-ansi@6.0.1 OK for: cliui@6.0.0 want: ^6.0.0
+783 silly placeDep node_modules/yargs wrap-ansi@6.2.0 OK for: cliui@6.0.0 want: ^6.2.0
+784 silly fetch manifest ansi-regex@^5.0.1
+785 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+786 silly fetch manifest ansi-styles@^4.0.0
+787 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+788 http cache https://registry.npmjs.org/ansi-styles 18ms (cache hit)
+789 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+790 http cache https://registry.npmjs.org/ansi-regex 24ms (cache hit)
+791 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:41869 disposed:false
+792 silly placeDep node_modules/yargs locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+793 silly placeDep node_modules/yargs path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+794 silly fetch manifest p-locate@^4.1.0
+795 silly packumentCache full:https://registry.npmjs.org/p-locate cache-miss
+796 http cache https://registry.npmjs.org/p-locate 14ms (cache hit)
+797 silly packumentCache full:https://registry.npmjs.org/p-locate set size:20789 disposed:false
+798 silly placeDep node_modules/yargs p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+799 silly fetch manifest p-limit@^2.2.0
+800 silly packumentCache full:https://registry.npmjs.org/p-limit cache-miss
+801 http cache https://registry.npmjs.org/p-limit 9ms (cache hit)
+802 silly packumentCache full:https://registry.npmjs.org/p-limit set size:50060 disposed:false
+803 silly placeDep node_modules/yargs p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+804 silly fetch manifest p-try@^2.0.0
+805 silly packumentCache full:https://registry.npmjs.org/p-try cache-miss
+806 http cache https://registry.npmjs.org/p-try 11ms (cache hit)
+807 silly packumentCache full:https://registry.npmjs.org/p-try set size:13014 disposed:false
+808 silly placeDep node_modules/yargs p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+809 silly placeDep node_modules/yargs emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+810 silly placeDep node_modules/yargs is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+811 silly placeDep node_modules/yargs ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+812 silly placeDep node_modules/yargs ansi-styles@4.3.0 OK for: wrap-ansi@6.2.0 want: ^4.0.0
+813 silly fetch manifest color-convert@^2.0.1
+814 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+815 http cache https://registry.npmjs.org/color-convert 10ms (cache hit)
+816 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+817 silly placeDep node_modules/yargs color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+818 silly fetch manifest color-name@~1.1.4
+819 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+820 http cache https://registry.npmjs.org/color-name 9ms (cache hit)
+821 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+822 silly placeDep node_modules/yargs color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+823 silly placeDep node_modules/yargs camelcase@5.3.1 OK for: yargs-parser@18.1.3 want: ^5.0.0
+824 silly placeDep node_modules/zip-stream glob@7.2.3 OK for: archiver-utils@3.0.4 want: ^7.2.3
+825 silly placeDep node_modules/zip-stream fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+826 silly placeDep node_modules/zip-stream inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+827 silly placeDep node_modules/zip-stream inherits@2.0.4 OK for: glob@7.2.3 want: 2
+828 silly placeDep node_modules/zip-stream minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+829 silly placeDep node_modules/zip-stream once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+830 silly placeDep node_modules/zip-stream path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+831 silly placeDep node_modules/zip-stream wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+832 silly placeDep node_modules/zip-stream brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+833 silly placeDep node_modules/zip-stream balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+834 silly placeDep node_modules/zip-stream concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+835 silly placeDep node_modules/zip-stream string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+836 silly placeDep node_modules/zip-stream util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+837 silly placeDep node_modules/zip-stream safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+838 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/acorn-jsx' ]
+839 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ajv' ]
+840 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ansi-regex' ]
+841 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ansi-styles' ]
+842 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/acorn' ]
+843 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/argparse' ]
+844 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/async-lock' ]
+845 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/array-union' ]
+846 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/audio-buffer' ]
+847 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/atomic-sleep' ]
+848 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/audio-decode' ]
+849 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/audio-type' ]
+850 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/balanced-match' ]
+851 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/axios' ]
+852 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/brace-expansion' ]
+853 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/braces' ]
+854 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/callsites' ]
+855 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/cache-manager' ]
+856 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/camelcase' ]
+857 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/chalk' ]
+858 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/clone' ]
+859 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/codec-parser' ]
+860 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/cliui' ]
+861 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/color-convert' ]
+862 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/concat-map' ]
+863 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/color-name' ]
+864 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/cross-spawn' ]
+865 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/content-type' ]
+866 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/deep-is' ]
+867 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/decamelize' ]
+868 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/curve25519-js' ]
+869 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/debug' ]
+870 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/doctrine' ]
+871 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/dijkstrajs' ]
+872 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/duplexify' ]
+873 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/dir-glob' ]
+874 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/emoji-regex' ]
+875 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/end-of-stream' ]
+876 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/escape-string-regexp' ]
+877 silly reify mark retired [
+877 silly reify   '/storage/emulated/0/bot/node_modules/eslint-plugin-simple-import-sort'
+877 silly reify ]
+878 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/eslint' ]
+879 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/espree' ]
+880 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/eslint-scope' ]
+881 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/esquery' ]
+882 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/eslint-visitor-keys' ]
+883 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/esrecurse' ]
+884 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/eventemitter3' ]
+885 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/esutils' ]
+886 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/estraverse' ]
+887 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fast-deep-equal' ]
+888 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fast-json-stable-stringify' ]
+889 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fast-glob' ]
+890 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fast-levenshtein' ]
+891 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fastq' ]
+892 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fast-redact' ]
+893 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/file-entry-cache' ]
+894 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/file-type' ]
+895 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/find-up' ]
+896 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fill-range' ]
+897 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/flatted' ]
+898 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/flat-cache' ]
+899 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/follow-redirects' ]
+900 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/form-data' ]
+901 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/get-caller-file' ]
+902 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/fs.realpath' ]
+903 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/futoin-hkdf' ]
+904 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/glob-parent' ]
+905 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/globby' ]
+906 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/globals' ]
+907 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/glob' ]
+908 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ignore' ]
+909 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/graphemer' ]
+910 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/has-flag' ]
+911 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/import-fresh' ]
+912 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ieee754' ]
+913 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/imurmurhash' ]
+914 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/inflight' ]
+915 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/inherits' ]
+916 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/is-extglob' ]
+917 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/is-fullwidth-code-point' ]
+918 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/is-path-inside' ]
+919 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/is-glob' ]
+920 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/is-number' ]
+921 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/json-buffer' ]
+922 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/js-yaml' ]
+923 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/isexe' ]
+924 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/json-schema-traverse' ]
+925 silly reify mark retired [
+925 silly reify   '/storage/emulated/0/bot/node_modules/json-stable-stringify-without-jsonify'
+925 silly reify ]
+926 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/keyv' ]
+927 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/levn' ]
+928 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/libphonenumber-js' ]
+929 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/libsignal' ]
+930 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/lodash' ]
+931 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/lodash.clonedeep' ]
+932 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/locate-path' ]
+933 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/lodash.merge' ]
+934 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/media-typer' ]
+935 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/lru-cache' ]
+936 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/long' ]
+937 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/merge2' ]
+938 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/minimatch' ]
+939 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/micromatch' ]
+940 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/mpg123-decoder' ]
+941 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ms' ]
+942 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/music-metadata' ]
+943 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/natural-compare' ]
+944 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/node-cache' ]
+945 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/node-wav' ]
+946 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ogg-opus-decoder' ]
+947 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/on-exit-leak-free' ]
+948 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/once' ]
+949 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/optionator' ]
+950 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/opus-decoder' ]
+951 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/p-limit' ]
+952 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/p-locate' ]
+953 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/p-try' ]
+954 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/parent-module' ]
+955 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/path-exists' ]
+956 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/path-is-absolute' ]
+957 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/path-key' ]
+958 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/peek-readable' ]
+959 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/path-type' ]
+960 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/picomatch' ]
+961 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/pino' ]
+962 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/pino-std-serializers' ]
+963 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/pino-abstract-transport' ]
+964 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/pngjs' ]
+965 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/prelude-ls' ]
+966 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/promise-coalesce' ]
+967 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/process-warning' ]
+968 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/protobufjs' ]
+969 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/proxy-from-env' ]
+970 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/punycode' ]
+971 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/qrcode' ]
+972 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/qoa-format' ]
+973 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/qrcode-terminal' ]
+974 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/queue-microtask' ]
+975 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/quick-format-unescaped' ]
+976 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/readable-stream' ]
+977 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/require-directory' ]
+978 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/readline' ]
+979 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/readable-web-to-node-stream' ]
+980 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/real-require' ]
+981 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/reusify' ]
+982 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/resolve-from' ]
+983 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/require-main-filename' ]
+984 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/rimraf' ]
+985 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/semver' ]
+986 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/safe-buffer' ]
+987 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/safe-stable-stringify' ]
+988 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/run-parallel' ]
+989 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/shebang-command' ]
+990 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/set-blocking' ]
+991 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/shebang-regex' ]
+992 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/simple-yenc' ]
+993 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/slash' ]
+994 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/sonic-boom' ]
+995 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/string-width' ]
+996 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/split2' ]
+997 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/string_decoder' ]
+998 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/stream-shift' ]
+999 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/strip-json-comments' ]
+1000 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/strtok3' ]
+1001 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/strip-ansi' ]
+1002 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/supports-color' ]
+1003 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/thread-stream' ]
+1004 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/text-table' ]
+1005 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/to-regex-range' ]
+1006 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ts-api-utils' ]
+1007 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/token-types' ]
+1008 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/type-check' ]
+1009 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/type-fest' ]
+1010 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/typescript' ]
+1011 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/undici-types' ]
+1012 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/uri-js' ]
+1013 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/util-deprecate' ]
+1014 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/which' ]
+1015 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/which-module' ]
+1016 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/uuid' ]
+1017 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/wrap-ansi' ]
+1018 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/ws' ]
+1019 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/word-wrap' ]
+1020 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/wrappy' ]
+1021 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/yargs-parser' ]
+1022 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/y18n' ]
+1023 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/yocto-queue' ]
+1024 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/yargs' ]
+1025 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@adiwajshing/baileys' ]
+1026 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@eslint/eslintrc' ]
+1027 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@adiwajshing/keyed-db' ]
+1028 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@eshaz/web-worker' ]
+1029 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@eslint/js' ]
+1030 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@eslint-community/regexpp' ]
+1031 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@hapi/boom' ]
+1032 silly reify mark retired [
+1032 silly reify   '/storage/emulated/0/bot/node_modules/@eslint-community/eslint-utils'
+1032 silly reify ]
+1033 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@hapi/hoek' ]
+1034 silly reify mark retired [
+1034 silly reify   '/storage/emulated/0/bot/node_modules/@humanwhocodes/module-importer'
+1034 silly reify ]
+1035 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@humanwhocodes/config-array' ]
+1036 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@humanwhocodes/object-schema' ]
+1037 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@nodelib/fs.stat' ]
+1038 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@nodelib/fs.scandir' ]
+1039 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/base64' ]
+1040 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@nodelib/fs.walk' ]
+1041 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/aspromise' ]
+1042 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/codegen' ]
+1043 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/fetch' ]
+1044 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/float' ]
+1045 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/eventemitter' ]
+1046 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/inquire' ]
+1047 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/utf8' ]
+1048 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@thi.ng/bitstream' ]
+1049 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/path' ]
+1050 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@protobufjs/pool' ]
+1051 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@thi.ng/errors' ]
+1052 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@types/long' ]
+1053 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@tokenizer/token' ]
+1054 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@typescript-eslint/parser' ]
+1055 silly reify mark retired [
+1055 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/eslint-plugin'
+1055 silly reify ]
+1056 silly reify mark retired [
+1056 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/scope-manager'
+1056 silly reify ]
+1057 silly reify mark retired [
+1057 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/type-utils'
+1057 silly reify ]
+1058 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@typescript-eslint/types' ]
+1059 silly reify mark retired [
+1059 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/typescript-estree'
+1059 silly reify ]
+1060 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@typescript-eslint/utils' ]
+1061 silly reify mark retired [
+1061 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/visitor-keys'
+1061 silly reify ]
+1062 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@ungap/structured-clone' ]
+1063 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/common' ]
+1064 silly reify mark retired [
+1064 silly reify   '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/ogg-vorbis'
+1064 silly reify ]
+1065 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@whiskeysockets/baileys' ]
+1066 silly reify mark retired [ '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/flac' ]
+1067 silly reify mark retired [
+1067 silly reify   '/storage/emulated/0/bot/node_modules/@whiskeysockets/eslint-config'
+1067 silly reify ]
+1068 silly reify moves {
+1068 silly reify   '/storage/emulated/0/bot/node_modules/acorn-jsx': '/storage/emulated/0/bot/node_modules/.acorn-jsx-hQmU5Fjv',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ajv': '/storage/emulated/0/bot/node_modules/.ajv-JQTmB1Nd',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ansi-regex': '/storage/emulated/0/bot/node_modules/.ansi-regex-xqLsRjCp',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ansi-styles': '/storage/emulated/0/bot/node_modules/.ansi-styles-aU57tOIr',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/acorn': '/storage/emulated/0/bot/node_modules/.acorn-7TdY51t1',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/argparse': '/storage/emulated/0/bot/node_modules/.argparse-M0pfeZ0c',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/async-lock': '/storage/emulated/0/bot/node_modules/.async-lock-KhZUmpAz',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/array-union': '/storage/emulated/0/bot/node_modules/.array-union-GavcRFRO',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/audio-buffer': '/storage/emulated/0/bot/node_modules/.audio-buffer-xudQqP9e',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/atomic-sleep': '/storage/emulated/0/bot/node_modules/.atomic-sleep-QDDcMMCi',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/audio-decode': '/storage/emulated/0/bot/node_modules/.audio-decode-PWim5Nip',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/audio-type': '/storage/emulated/0/bot/node_modules/.audio-type-5U9I0o8z',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/balanced-match': '/storage/emulated/0/bot/node_modules/.balanced-match-Np8TiPxb',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/axios': '/storage/emulated/0/bot/node_modules/.axios-Kz9QbY0G',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/brace-expansion': '/storage/emulated/0/bot/node_modules/.brace-expansion-oCjJF40I',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/braces': '/storage/emulated/0/bot/node_modules/.braces-gdol3xK1',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/callsites': '/storage/emulated/0/bot/node_modules/.callsites-rj4GqAm9',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/cache-manager': '/storage/emulated/0/bot/node_modules/.cache-manager-ttq3d1BK',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/camelcase': '/storage/emulated/0/bot/node_modules/.camelcase-PQBjEEqG',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/chalk': '/storage/emulated/0/bot/node_modules/.chalk-vtIlIDBh',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/clone': '/storage/emulated/0/bot/node_modules/.clone-72V6nMS0',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/codec-parser': '/storage/emulated/0/bot/node_modules/.codec-parser-OCaznULZ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/cliui': '/storage/emulated/0/bot/node_modules/.cliui-H9UAKnOI',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/color-convert': '/storage/emulated/0/bot/node_modules/.color-convert-YhQfre8R',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/concat-map': '/storage/emulated/0/bot/node_modules/.concat-map-ksmF85EW',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/color-name': '/storage/emulated/0/bot/node_modules/.color-name-XxuzZ9tE',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/cross-spawn': '/storage/emulated/0/bot/node_modules/.cross-spawn-wW9DjTBy',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/content-type': '/storage/emulated/0/bot/node_modules/.content-type-Tn71bvqy',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/deep-is': '/storage/emulated/0/bot/node_modules/.deep-is-gDdAOYoi',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/decamelize': '/storage/emulated/0/bot/node_modules/.decamelize-R27r7Qzw',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/curve25519-js': '/storage/emulated/0/bot/node_modules/.curve25519-js-2vRxbous',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/debug': '/storage/emulated/0/bot/node_modules/.debug-D3WicnY5',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/doctrine': '/storage/emulated/0/bot/node_modules/.doctrine-ZRxsqkjC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/dijkstrajs': '/storage/emulated/0/bot/node_modules/.dijkstrajs-LsEvmZTr',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/duplexify': '/storage/emulated/0/bot/node_modules/.duplexify-UzgZckBK',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/dir-glob': '/storage/emulated/0/bot/node_modules/.dir-glob-MwUJbjWe',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/emoji-regex': '/storage/emulated/0/bot/node_modules/.emoji-regex-9b0YlyUs',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/end-of-stream': '/storage/emulated/0/bot/node_modules/.end-of-stream-8tTFQeII',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/escape-string-regexp': '/storage/emulated/0/bot/node_modules/.escape-string-regexp-lNuoWBR0',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/eslint-plugin-simple-import-sort': '/storage/emulated/0/bot/node_modules/.eslint-plugin-simple-import-sort-jlUCVzOv',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/eslint': '/storage/emulated/0/bot/node_modules/.eslint-GqfX6IIj',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/espree': '/storage/emulated/0/bot/node_modules/.espree-SRDo6ciZ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/eslint-scope': '/storage/emulated/0/bot/node_modules/.eslint-scope-GaV2Of0x',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/esquery': '/storage/emulated/0/bot/node_modules/.esquery-E5Q4Y0w7',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/eslint-visitor-keys': '/storage/emulated/0/bot/node_modules/.eslint-visitor-keys-hmcLYzq0',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/esrecurse': '/storage/emulated/0/bot/node_modules/.esrecurse-P3e1kuwn',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/eventemitter3': '/storage/emulated/0/bot/node_modules/.eventemitter3-9vpJSt2t',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/esutils': '/storage/emulated/0/bot/node_modules/.esutils-xKLdrRMP',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/estraverse': '/storage/emulated/0/bot/node_modules/.estraverse-s6vUa2Nn',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fast-deep-equal': '/storage/emulated/0/bot/node_modules/.fast-deep-equal-oifHrcg7',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fast-json-stable-stringify': '/storage/emulated/0/bot/node_modules/.fast-json-stable-stringify-VxJXe5ao',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fast-glob': '/storage/emulated/0/bot/node_modules/.fast-glob-cpJTQB3z',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fast-levenshtein': '/storage/emulated/0/bot/node_modules/.fast-levenshtein-Af2LVOmU',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fastq': '/storage/emulated/0/bot/node_modules/.fastq-TvYlqKi8',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fast-redact': '/storage/emulated/0/bot/node_modules/.fast-redact-WJVEH2wX',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/file-entry-cache': '/storage/emulated/0/bot/node_modules/.file-entry-cache-rZxghQ8e',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/file-type': '/storage/emulated/0/bot/node_modules/.file-type-Wz5pxWUv',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/find-up': '/storage/emulated/0/bot/node_modules/.find-up-lONGj4ec',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fill-range': '/storage/emulated/0/bot/node_modules/.fill-range-e2qyTdvf',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/flatted': '/storage/emulated/0/bot/node_modules/.flatted-kTkEpqTZ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/flat-cache': '/storage/emulated/0/bot/node_modules/.flat-cache-cZuDhAn4',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/follow-redirects': '/storage/emulated/0/bot/node_modules/.follow-redirects-k6lH8IHJ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/form-data': '/storage/emulated/0/bot/node_modules/.form-data-lNZTccal',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/get-caller-file': '/storage/emulated/0/bot/node_modules/.get-caller-file-wfAMxdvA',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/fs.realpath': '/storage/emulated/0/bot/node_modules/.fs.realpath-ZEN9265d',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/futoin-hkdf': '/storage/emulated/0/bot/node_modules/.futoin-hkdf-btPv3ds3',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/glob-parent': '/storage/emulated/0/bot/node_modules/.glob-parent-ePjv804r',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/globby': '/storage/emulated/0/bot/node_modules/.globby-O5McwwOs',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/globals': '/storage/emulated/0/bot/node_modules/.globals-41JnSsfU',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/glob': '/storage/emulated/0/bot/node_modules/.glob-CBUHmevw',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ignore': '/storage/emulated/0/bot/node_modules/.ignore-qfBwkcLt',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/graphemer': '/storage/emulated/0/bot/node_modules/.graphemer-WaCuRx99',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/has-flag': '/storage/emulated/0/bot/node_modules/.has-flag-pv7H3f7I',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/import-fresh': '/storage/emulated/0/bot/node_modules/.import-fresh-xyl74p8X',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ieee754': '/storage/emulated/0/bot/node_modules/.ieee754-MvePB0w7',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/imurmurhash': '/storage/emulated/0/bot/node_modules/.imurmurhash-clSjGSRo',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/inflight': '/storage/emulated/0/bot/node_modules/.inflight-dgw7gTbk',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/inherits': '/storage/emulated/0/bot/node_modules/.inherits-kodTEghC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/is-extglob': '/storage/emulated/0/bot/node_modules/.is-extglob-asnhEFqU',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/is-fullwidth-code-point': '/storage/emulated/0/bot/node_modules/.is-fullwidth-code-point-tltFDGxB',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/is-path-inside': '/storage/emulated/0/bot/node_modules/.is-path-inside-lx5J9WlQ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/is-glob': '/storage/emulated/0/bot/node_modules/.is-glob-6Jj18pg6',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/is-number': '/storage/emulated/0/bot/node_modules/.is-number-CTNzLna2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/json-buffer': '/storage/emulated/0/bot/node_modules/.json-buffer-J6tXrqAN',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/js-yaml': '/storage/emulated/0/bot/node_modules/.js-yaml-KzVXiTvA',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/isexe': '/storage/emulated/0/bot/node_modules/.isexe-f8m2ujat',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/json-schema-traverse': '/storage/emulated/0/bot/node_modules/.json-schema-traverse-DLXx5sFG',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/json-stable-stringify-without-jsonify': '/storage/emulated/0/bot/node_modules/.json-stable-stringify-without-jsonify-JYugkK3V',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/keyv': '/storage/emulated/0/bot/node_modules/.keyv-VXS8Fz3e',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/levn': '/storage/emulated/0/bot/node_modules/.levn-UjvHTx1f',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/libphonenumber-js': '/storage/emulated/0/bot/node_modules/.libphonenumber-js-VScFGLsm',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/libsignal': '/storage/emulated/0/bot/node_modules/.libsignal-yxrwQw99',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/lodash': '/storage/emulated/0/bot/node_modules/.lodash-2UlxXW6b',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/lodash.clonedeep': '/storage/emulated/0/bot/node_modules/.lodash.clonedeep-dWd42wwm',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/locate-path': '/storage/emulated/0/bot/node_modules/.locate-path-roooSc6v',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/lodash.merge': '/storage/emulated/0/bot/node_modules/.lodash.merge-jKrcvVRT',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/media-typer': '/storage/emulated/0/bot/node_modules/.media-typer-16ZdDGoE',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/lru-cache': '/storage/emulated/0/bot/node_modules/.lru-cache-xOAir7PB',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/long': '/storage/emulated/0/bot/node_modules/.long-aPBkFPx2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/merge2': '/storage/emulated/0/bot/node_modules/.merge2-zKXOSXJo',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/minimatch': '/storage/emulated/0/bot/node_modules/.minimatch-Tmlbbkh0',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/micromatch': '/storage/emulated/0/bot/node_modules/.micromatch-4ABF5Axd',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/mpg123-decoder': '/storage/emulated/0/bot/node_modules/.mpg123-decoder-u2SlSeTD',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ms': '/storage/emulated/0/bot/node_modules/.ms-PYcHEE4i',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/music-metadata': '/storage/emulated/0/bot/node_modules/.music-metadata-L7Bvc0QL',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/natural-compare': '/storage/emulated/0/bot/node_modules/.natural-compare-7RyTVUXh',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/node-cache': '/storage/emulated/0/bot/node_modules/.node-cache-Xm8aiIIS',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/node-wav': '/storage/emulated/0/bot/node_modules/.node-wav-JCMMMQy3',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ogg-opus-decoder': '/storage/emulated/0/bot/node_modules/.ogg-opus-decoder-JRpPdJP6',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/on-exit-leak-free': '/storage/emulated/0/bot/node_modules/.on-exit-leak-free-4qN6xkvc',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/once': '/storage/emulated/0/bot/node_modules/.once-7EO4HZ0K',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/optionator': '/storage/emulated/0/bot/node_modules/.optionator-zkTcIrn2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/opus-decoder': '/storage/emulated/0/bot/node_modules/.opus-decoder-OzHk0qoo',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/p-limit': '/storage/emulated/0/bot/node_modules/.p-limit-eqAvDcGT',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/p-locate': '/storage/emulated/0/bot/node_modules/.p-locate-NX8xLCnf',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/p-try': '/storage/emulated/0/bot/node_modules/.p-try-YlXjtcdQ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/parent-module': '/storage/emulated/0/bot/node_modules/.parent-module-agd2HNoI',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/path-exists': '/storage/emulated/0/bot/node_modules/.path-exists-o0H1h16v',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/path-is-absolute': '/storage/emulated/0/bot/node_modules/.path-is-absolute-aTkjRw9N',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/path-key': '/storage/emulated/0/bot/node_modules/.path-key-Y2tWhJWU',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/peek-readable': '/storage/emulated/0/bot/node_modules/.peek-readable-4v9vadSl',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/path-type': '/storage/emulated/0/bot/node_modules/.path-type-iJieXduV',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/picomatch': '/storage/emulated/0/bot/node_modules/.picomatch-2P0zBsDC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/pino': '/storage/emulated/0/bot/node_modules/.pino-pOiuXdB5',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/pino-std-serializers': '/storage/emulated/0/bot/node_modules/.pino-std-serializers-W0Tq8gcR',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/pino-abstract-transport': '/storage/emulated/0/bot/node_modules/.pino-abstract-transport-akP39nDC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/pngjs': '/storage/emulated/0/bot/node_modules/.pngjs-xV54949o',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/prelude-ls': '/storage/emulated/0/bot/node_modules/.prelude-ls-Mo8QYNRT',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/promise-coalesce': '/storage/emulated/0/bot/node_modules/.promise-coalesce-sbEGK4CT',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/process-warning': '/storage/emulated/0/bot/node_modules/.process-warning-GcczmzKz',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/protobufjs': '/storage/emulated/0/bot/node_modules/.protobufjs-TcbzY8Hn',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/proxy-from-env': '/storage/emulated/0/bot/node_modules/.proxy-from-env-d3aQnukJ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/punycode': '/storage/emulated/0/bot/node_modules/.punycode-iCW5pwxy',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/qrcode': '/storage/emulated/0/bot/node_modules/.qrcode-0AxnwwHX',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/qoa-format': '/storage/emulated/0/bot/node_modules/.qoa-format-YK60F0WM',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/qrcode-terminal': '/storage/emulated/0/bot/node_modules/.qrcode-terminal-eFvKbkSQ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/queue-microtask': '/storage/emulated/0/bot/node_modules/.queue-microtask-4JEA9Z3z',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/quick-format-unescaped': '/storage/emulated/0/bot/node_modules/.quick-format-unescaped-wpk963lb',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/readable-stream': '/storage/emulated/0/bot/node_modules/.readable-stream-KUzWF53D',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/require-directory': '/storage/emulated/0/bot/node_modules/.require-directory-WR8x41TI',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/readline': '/storage/emulated/0/bot/node_modules/.readline-TGfeQhpv',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/readable-web-to-node-stream': '/storage/emulated/0/bot/node_modules/.readable-web-to-node-stream-Ns3QVGvt',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/real-require': '/storage/emulated/0/bot/node_modules/.real-require-8IPp4mW8',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/reusify': '/storage/emulated/0/bot/node_modules/.reusify-sCWOp4SJ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/resolve-from': '/storage/emulated/0/bot/node_modules/.resolve-from-8U6nL9T4',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/require-main-filename': '/storage/emulated/0/bot/node_modules/.require-main-filename-gljmeTvO',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/rimraf': '/storage/emulated/0/bot/node_modules/.rimraf-b3xP2MZg',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/semver': '/storage/emulated/0/bot/node_modules/.semver-Fne22nT2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/safe-buffer': '/storage/emulated/0/bot/node_modules/.safe-buffer-Bt8kJrxD',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/safe-stable-stringify': '/storage/emulated/0/bot/node_modules/.safe-stable-stringify-0Zeg7ugf',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/run-parallel': '/storage/emulated/0/bot/node_modules/.run-parallel-j3Xk86wF',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/shebang-command': '/storage/emulated/0/bot/node_modules/.shebang-command-tbStyjoZ',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/set-blocking': '/storage/emulated/0/bot/node_modules/.set-blocking-8Jbz73xB',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/shebang-regex': '/storage/emulated/0/bot/node_modules/.shebang-regex-t9nk1NlY',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/simple-yenc': '/storage/emulated/0/bot/node_modules/.simple-yenc-NOsSi4Ts',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/slash': '/storage/emulated/0/bot/node_modules/.slash-J3iiEVVC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/sonic-boom': '/storage/emulated/0/bot/node_modules/.sonic-boom-EDNOIJI0',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/string-width': '/storage/emulated/0/bot/node_modules/.string-width-305NIqWX',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/split2': '/storage/emulated/0/bot/node_modules/.split2-v5VtUaDr',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/string_decoder': '/storage/emulated/0/bot/node_modules/.string_decoder-T44iVkKB',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/stream-shift': '/storage/emulated/0/bot/node_modules/.stream-shift-6WfimgMB',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/strip-json-comments': '/storage/emulated/0/bot/node_modules/.strip-json-comments-dHnTSIo9',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/strtok3': '/storage/emulated/0/bot/node_modules/.strtok3-7BEt5ayq',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/strip-ansi': '/storage/emulated/0/bot/node_modules/.strip-ansi-xvnUdNjt',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/supports-color': '/storage/emulated/0/bot/node_modules/.supports-color-63OXmemr',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/thread-stream': '/storage/emulated/0/bot/node_modules/.thread-stream-9Hp2ZOnE',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/text-table': '/storage/emulated/0/bot/node_modules/.text-table-4BgFvUvR',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/to-regex-range': '/storage/emulated/0/bot/node_modules/.to-regex-range-62bDMksr',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ts-api-utils': '/storage/emulated/0/bot/node_modules/.ts-api-utils-NL5IOgG4',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/token-types': '/storage/emulated/0/bot/node_modules/.token-types-6HUssx7t',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/type-check': '/storage/emulated/0/bot/node_modules/.type-check-TavgSZJo',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/type-fest': '/storage/emulated/0/bot/node_modules/.type-fest-6JvliaD4',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/typescript': '/storage/emulated/0/bot/node_modules/.typescript-1uLQGA8f',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/undici-types': '/storage/emulated/0/bot/node_modules/.undici-types-pK7zrDtw',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/uri-js': '/storage/emulated/0/bot/node_modules/.uri-js-SVfSDsIp',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/util-deprecate': '/storage/emulated/0/bot/node_modules/.util-deprecate-iXgue20t',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/which': '/storage/emulated/0/bot/node_modules/.which-yH6Jkyor',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/which-module': '/storage/emulated/0/bot/node_modules/.which-module-FhiGpHS1',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/uuid': '/storage/emulated/0/bot/node_modules/.uuid-UKW5519L',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/wrap-ansi': '/storage/emulated/0/bot/node_modules/.wrap-ansi-n0RSrTUT',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/ws': '/storage/emulated/0/bot/node_modules/.ws-pwoAevXP',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/word-wrap': '/storage/emulated/0/bot/node_modules/.word-wrap-QQKPPVMD',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/wrappy': '/storage/emulated/0/bot/node_modules/.wrappy-mHNSodVx',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/yargs-parser': '/storage/emulated/0/bot/node_modules/.yargs-parser-VADggMgY',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/y18n': '/storage/emulated/0/bot/node_modules/.y18n-S9aBmZlo',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/yocto-queue': '/storage/emulated/0/bot/node_modules/.yocto-queue-MFDKDkeq',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/yargs': '/storage/emulated/0/bot/node_modules/.yargs-3eLB4QTz',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@adiwajshing/baileys': '/storage/emulated/0/bot/node_modules/@adiwajshing/.baileys-o4ot4x90',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@eslint/eslintrc': '/storage/emulated/0/bot/node_modules/@eslint/.eslintrc-1JmcSHym',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@adiwajshing/keyed-db': '/storage/emulated/0/bot/node_modules/@adiwajshing/.keyed-db-kOvfE2WC',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@eshaz/web-worker': '/storage/emulated/0/bot/node_modules/@eshaz/.web-worker-ugAcNG17',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@eslint/js': '/storage/emulated/0/bot/node_modules/@eslint/.js-wH5iAlU1',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@eslint-community/regexpp': '/storage/emulated/0/bot/node_modules/@eslint-community/.regexpp-x5XFMQlb',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@hapi/boom': '/storage/emulated/0/bot/node_modules/@hapi/.boom-j1hqPXmX',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@eslint-community/eslint-utils': '/storage/emulated/0/bot/node_modules/@eslint-community/.eslint-utils-6LCGkX5T',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@hapi/hoek': '/storage/emulated/0/bot/node_modules/@hapi/.hoek-FZRjcdi2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@humanwhocodes/module-importer': '/storage/emulated/0/bot/node_modules/@humanwhocodes/.module-importer-pjuS0ibV',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@humanwhocodes/config-array': '/storage/emulated/0/bot/node_modules/@humanwhocodes/.config-array-Cos3krJR',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@humanwhocodes/object-schema': '/storage/emulated/0/bot/node_modules/@humanwhocodes/.object-schema-bQ8JmMDH',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@nodelib/fs.stat': '/storage/emulated/0/bot/node_modules/@nodelib/.fs.stat-rFwIQ1nf',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@nodelib/fs.scandir': '/storage/emulated/0/bot/node_modules/@nodelib/.fs.scandir-cgWk1CFE',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/base64': '/storage/emulated/0/bot/node_modules/@protobufjs/.base64-mcFHGYOV',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@nodelib/fs.walk': '/storage/emulated/0/bot/node_modules/@nodelib/.fs.walk-IFJ1Qmau',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/aspromise': '/storage/emulated/0/bot/node_modules/@protobufjs/.aspromise-8vee0XHc',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/codegen': '/storage/emulated/0/bot/node_modules/@protobufjs/.codegen-vJc3XWfp',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/fetch': '/storage/emulated/0/bot/node_modules/@protobufjs/.fetch-6DPs90Uc',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/float': '/storage/emulated/0/bot/node_modules/@protobufjs/.float-SL9HK3KM',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/eventemitter': '/storage/emulated/0/bot/node_modules/@protobufjs/.eventemitter-J7lWiYKe',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/inquire': '/storage/emulated/0/bot/node_modules/@protobufjs/.inquire-yq3wEd0s',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/utf8': '/storage/emulated/0/bot/node_modules/@protobufjs/.utf8-i57znH9Z',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@thi.ng/bitstream': '/storage/emulated/0/bot/node_modules/@thi.ng/.bitstream-icrJ39jp',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/path': '/storage/emulated/0/bot/node_modules/@protobufjs/.path-hIKxcSUl',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@protobufjs/pool': '/storage/emulated/0/bot/node_modules/@protobufjs/.pool-uETNguxh',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@thi.ng/errors': '/storage/emulated/0/bot/node_modules/@thi.ng/.errors-onJZ6Tb9',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@types/long': '/storage/emulated/0/bot/node_modules/@types/.long-kohWrmFU',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@tokenizer/token': '/storage/emulated/0/bot/node_modules/@tokenizer/.token-VEKIt20I',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/parser': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.parser-jICuIhHu',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/eslint-plugin': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.eslint-plugin-p5TDw112',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/scope-manager': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.scope-manager-yJTstniP',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/type-utils': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.type-utils-N9UjTNfF',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/types': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.types-i6cQtgz2',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/typescript-estree': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.typescript-estree-kjsBnkJX',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/utils': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.utils-VA2LCGOE',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@typescript-eslint/visitor-keys': '/storage/emulated/0/bot/node_modules/@typescript-eslint/.visitor-keys-IfChxW2t',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@ungap/structured-clone': '/storage/emulated/0/bot/node_modules/@ungap/.structured-clone-euTJ1Hpe',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/common': '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/.common-t1Hdy244',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/ogg-vorbis': '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/.ogg-vorbis-IQv55IOR',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@whiskeysockets/baileys': '/storage/emulated/0/bot/node_modules/@whiskeysockets/.baileys-UpWhKxDD',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/flac': '/storage/emulated/0/bot/node_modules/@wasm-audio-decoders/.flac-fkl05Xrt',
+1068 silly reify   '/storage/emulated/0/bot/node_modules/@whiskeysockets/eslint-config': '/storage/emulated/0/bot/node_modules/@whiskeysockets/.eslint-config-lkoJWnjq'
+1068 silly reify }
+1069 verbose cwd /storage/emulated/0/bot
+1070 verbose os Linux 4.19.191-ge9491824f6a7
+1071 verbose node v22.13.1
+1072 verbose npm  v10.9.2
+1073 verbose exit 1
+1074 verbose code 1
+1075 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-02-03T21_25_40_930Z-debug-0.log

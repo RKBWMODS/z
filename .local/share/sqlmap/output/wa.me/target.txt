@@ -1,0 +1,1 @@
+https://wa.me/message/CCLJLBK7Y2H5B1 (GET)  # /data/data/com.termux/files/usr/bin/sqlmap -u https://wa.me/message/CCLJLBK7Y2H5B1 --dbs --batch

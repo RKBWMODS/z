@@ -1,0 +1,51 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.6.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install assemblyscript
+7 verbose argv "install" "--global" "assemblyscript"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-02-11T15_19_22_556Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-02-11T15_19_22_556Z-debug-0.log
+10 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest assemblyscript@*
+15 silly packumentCache full:https://registry.npmjs.org/assemblyscript cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/assemblyscript 1686ms (cache updated)
+17 silly packumentCache full:https://registry.npmjs.org/assemblyscript set size:undefined disposed:false
+18 silly placeDep ROOT assemblyscript@0.27.34 OK for:  want: *
+19 silly fetch manifest binaryen@116.0.0-nightly.20240114
+20 silly packumentCache full:https://registry.npmjs.org/binaryen cache-miss
+21 silly fetch manifest long@^5.2.4
+22 silly packumentCache full:https://registry.npmjs.org/long cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/long 220ms (cache updated)
+24 silly packumentCache full:https://registry.npmjs.org/long set size:undefined disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/binaryen 2884ms (cache updated)
+26 silly packumentCache full:https://registry.npmjs.org/binaryen set size:undefined disposed:false
+27 silly placeDep node_modules/assemblyscript binaryen@116.0.0-nightly.20240114 OK for: assemblyscript@0.27.34 want: 116.0.0-nightly.20240114
+28 silly placeDep node_modules/assemblyscript long@5.3.0 OK for: assemblyscript@0.27.34 want: ^5.2.4
+29 silly reify mark retired [
+29 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/assemblyscript',
+29 silly reify   '/data/data/com.termux/files/usr/bin/asc',
+29 silly reify   '/data/data/com.termux/files/usr/bin/asinit'
+29 silly reify ]
+30 silly reify moves {
+30 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/assemblyscript': '/data/data/com.termux/files/usr/lib/node_modules/.assemblyscript-ZmRDS0Uq',
+30 silly reify   '/data/data/com.termux/files/usr/bin/asc': '/data/data/com.termux/files/usr/bin/.asc-brO5ibwc',
+30 silly reify   '/data/data/com.termux/files/usr/bin/asinit': '/data/data/com.termux/files/usr/bin/.asinit-m5RfUabz'
+30 silly reify }
+31 http cache assemblyscript@https://registry.npmjs.org/assemblyscript/-/assemblyscript-0.27.34.tgz 1ms (cache hit)
+32 http cache long@https://registry.npmjs.org/long/-/long-5.3.0.tgz 0ms (cache hit)
+33 http cache binaryen@https://registry.npmjs.org/binaryen/-/binaryen-116.0.0-nightly.20240114.tgz 0ms (cache hit)
+34 silly CHANGE node_modules/assemblyscript
+35 silly CHANGE node_modules/assemblyscript/node_modules/long
+36 silly CHANGE node_modules/assemblyscript/node_modules/binaryen
+37 verbose cwd /data/data/com.termux/files/home/DIZENC
+38 verbose os Linux 4.19.191-ge9491824f6a7
+39 verbose node v23.6.1
+40 verbose npm  v10.9.2
+41 verbose exit 0
+42 info ok
