@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/track", "destination": "/api/track" }
+  "version": 2,
+  "routes": [
+    { "src": "/api/track", "dest": "/track.js" }
   ]
 }
