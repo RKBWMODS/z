@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "functions": {
+    "track.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "routes": [
     { "src": "/api/track", "dest": "/track.js" }
   ]
